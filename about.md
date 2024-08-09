@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: A little bit about me.
 tags: about
-headshot: /images/headshot_with_cat.jpg
+headshot: /images/with_cat.jpg
 ---
 
 ### intro.
@@ -84,19 +84,19 @@ function populateDashboardHTML(data) {
     });
 }
 
-fetch('https://thundergolfer-cgflgpx.modal.run')
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-
-    return response.json();
-  })
-  .then((data) => {
-    populateDashboardHTML(data);
-    /* Reveal the now populated stats section. */
-    document.getElementById("stats").classList.remove("hidden");
-  });
+// fetch('https://thundergolfer-cgflgpx.modal.run')
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error(`HTTP error! Status: ${response.status}`);
+//     }
+//
+//     return response.json();
+//   })
+//   .then((data) => {
+//     populateDashboardHTML(data);
+//     /* Reveal the now populated stats section. */
+//     document.getElementById("stats").classList.remove("hidden");
+//   });
 
 </script>
 
