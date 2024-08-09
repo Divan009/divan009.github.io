@@ -7,7 +7,7 @@ flicker: true
 #headshot: /images/headshot.jpg
 ---
 
-#### This is my complete, unabridged resume. You can find a shorter single page version [here](https://raw.githubusercontent.com/Divan009/divan009.github.io/main/SWE%20Resume.pdf).
+#### You can download a shorter single page version [here](https://raw.githubusercontent.com/Divan009/divan009.github.io/main/SWE%20Resume.pdf).
 ---
 
 <iframe id="ifrml" src="https://docs.google.com/document/d/1bUj36-nThsMqrQcFB6t9vcla7hEXoHZHww595LnqHFY/pub?embedded=true" frameborder="0" scrolling="no" width='100%' height='3400'> Your browser doesn't support iframes></iframe>
