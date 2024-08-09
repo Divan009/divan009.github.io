@@ -25,55 +25,64 @@ jQuery.fn.getRepos = function (username) {
     $.gitUser(
         username,
         function (data) {
-            var repos = data.data; /* JSON Parsing */
-            const filteredRepos = {};
-            filteredRepos["library-management-slack-bot"] = true;
-            filteredRepos["bazel-build_python_zip-bug-reproduction"] = true;
-            filteredRepos["dotfiles"] = true;
-            filteredRepos["homebrew-formulae"] = true;
-            filteredRepos["ghportfolio"] = true;
-            filteredRepos["thundergolfer.github.io"] = true;
-            filteredRepos["thundergolfer"] = true;
-            filteredRepos["golang-reactjs-skeleton-app"] = true;
-            filteredRepos["bazel-python-mypy-protobuf"] = true;
-            filteredRepos["arXie-Bot"] = true;
+            console.log("Response Data:", data);  // Debugging Line
+            if (data && data.data) {
+                var repos = data.data; // Make sure this is the correct way to access repos.
 
-            /* alert(repos.length); Only for checking how many items are returned. */
-            try {
-                sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
-                repos = repos.filter(r => !(r.name in filteredRepos));
-            } catch (err) {
-                target.empty().append(errElement);
-                return;
-            }
+                const filteredRepos = {
+                    "library-management-slack-bot": true,
+                    "bazel-build_python_zip-bug-reproduction": true,
+                    "dotfiles": true,
+                    "homebrew-formulae": true,
+                    "ghportfolio": true,
+                    "thundergolfer.github.io": true,
+                    "thundergolfer": true,
+                    "golang-reactjs-skeleton-app": true,
+                    "bazel-python-mypy-protobuf": true,
+                    "arXie-Bot": true
+                };
 
-            var list = $('<dl/>');
-            target.empty().append(list);
-            $(repos).each(function () {
-                checkfork = this.fork;
-                if ((this.name != (username.toLowerCase() + '.github.com')) && (checkfork != true)) { /* Check for username.github.com repo and for forked projects */
-                    list.append('<dt> \
-                            <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '"><h4 style="display: inline; padding-right: 2%;">' + this.name + '   </h4></a> \
-                            <div style="display: inline-block;"><span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
-                            <span class="tag">Stars</span> \
-                            <a href=' + this.html_url + '><span class="numbertag">' + this.watchers + '</span></a> \
-                            <span class="tag">Forks</span> \
-                            <a href=' + this.html_url + '><span class="numbertag">' + this.forks + '</span></a></div> \
-                            <div style="padding-top: 2%;"><p>' + emojione.shortnameToImage(this.description) + (this.homepage ? ('<a href="' + this.homepage + '"> ' + this.homepage + '</a>') : "") + '</p></div> \
-                        ');
-                    /* Similarly fetch everything else you need. */
+                try {
+                    sortByForks(repos); // Sorting by forks
+                    repos = repos.filter(r => !(r.name in filteredRepos));
+
+                    var list = $('<dl/>');
+                    target.empty().append(list);
+                    $(repos).each(function () {
+                        checkfork = this.fork;
+                        if ((this.name != (username.toLowerCase() + '.github.com')) && (checkfork != true)) {
+                            list.append('<dt> \
+                                    <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '"><h4 style="display: inline; padding-right: 2%;">' + this.name + '   </h4></a> \
+                                    <div style="display: inline-block;"><span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
+                                    <span class="tag">Stars</span> \
+                                    <a href=' + this.html_url + '><span class="numbertag">' + this.watchers + '</span></a> \
+                                    <span class="tag">Forks</span> \
+                                    <a href=' + this.html_url + '><span class="numbertag">' + this.forks + '</span></a></div> \
+                                    <div style="padding-top: 2%;"><p>' + emojione.shortnameToImage(this.description) + (this.homepage ? ('<a href="' + this.homepage + '"> ' + this.homepage + '</a>') : "") + '</p></div> \
+                                ');
+                        }
+                    });
+                } catch (err) {
+                    console.error("Error processing repos:", err);
+                    target.empty().append(errElement);
                 }
-            });
+            } else {
+                console.error("No data returned from GitHub API");
+                target.empty().append(errElement);
+            }
         },
         function () {
             target.empty().append(errElement);
-        });
+        }
+    );
 
     function sortByForks(repos) {
         repos.sort(function (a, b) {
-            return b.forks - a.forks; /* Descending order for number of forks based sorting. */
+            return b.forks - a.forks; // Descending order for number of forks
         });
     }
+};
+
 
     function mapLangToColor(lang) {
         map = {
