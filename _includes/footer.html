@@ -1,16 +1,17 @@
 <footer class="center">
   <div class="footer-container">
-    <div class="footer-each">
+    <div class="footer-links">
       <h5>
         <a href="https://maps.app.goo.gl/q5E2zRGuvHHrD3Jq9" target="_blank" rel="noopener noreferrer">
           <span>Bangalore</span><br><span>IN</span></span>
         </a>
       </h5>
-    </div>
-    <div class="footer-each">
       <h5><a href="https://www.linkedin.com/in/divadugar/" target="_blank" rel="noopener noreferrer" alt="LinkedIn"><span>LinkedIn</span></a></h5>
       <h5><a href="https://github.com/divan009" target="_blank" rel="noopener noreferrer" alt="Github"><span>Github</span></a></h5>
       <h5><a href="https://divadugar.medium.com/" target="_blank" rel="noopener noreferrer" alt="Medium"><span>Medium</span></a></h5>
+    </div>
+    <div class="footer-timestamp">
+      <h5>Current Time (IST): <span id="timestamp"></span></h5>
     </div>
   </div>
 </footer>
@@ -30,27 +31,36 @@ footer {
 
 footer .footer-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-footer .footer-container .footer-each {
-    float: left;
-    display: block;
-    margin: 0 2%;
-    width: 19em;
+footer .footer-container .footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-footer .footer-each a {
+footer .footer-links h5 {
+  margin: 0 15px;
+  text-align: center;
+}
+
+footer .footer-timestamp {
+  text-align: center;
+}
+
+.footer-each a, .footer-links a {
   text-decoration: none;
   background-image: none;
   color: #000;
   font-weight: 300;
-  word-wrap: normal;
 }
 
-footer .footer-each a:active, footer .footer-each a:hover {
+.footer-each a:active, .footer-each a:hover,
+.footer-links a:active, .footer-links a:hover {
     outline-width: 0;
 }
 
@@ -70,7 +80,8 @@ footer .footer-each a:active, footer .footer-each a:hover {
     transform: scaleX(1);
 }
 
-.footer-each a:hover span:before {
+.footer-each a:hover span:before,
+.footer-links a:hover span:before {
     content: '';
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -91,3 +102,23 @@ footer .footer-each a:active, footer .footer-each a:hover {
     anchors.add('article h2, article h3, article h5, article h5, article h6');
 </script>{% endif %}
 <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+
+<!-- Script to update the timestamp in IST -->
+<script>
+    function updateTimestamp() {
+        const now = new Date();
+        const options = {
+            timeZone: 'Asia/Kolkata',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        };
+        const timestamp = now.toLocaleString('en-IN', options);
+        document.getElementById('timestamp').innerText = timestamp;
+    }
+    setInterval(updateTimestamp, 1000); // Update every second
+    updateTimestamp(); // Initial call to set the timestamp immediately
+</script>
