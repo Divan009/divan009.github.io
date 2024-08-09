@@ -11,7 +11,7 @@ tags: home
 
 <br>
 
-I can usually be found either programming or learning new stuff like Poker 🤑 or Golang. I sometimes write in [@Medium](https://medium.com/@divadugar)
+I can usually be found either programming or learning new stuff like German, Poker 🤑 or Golang. I sometimes write in [@Medium](https://medium.com/@divadugar)
 
 <br>
 
@@ -31,6 +31,7 @@ Tech which I have use primarily:
 - NGINX
 - Gunicorn
 - Docker
+- and others..
 <br>
 
 [**See latest blog posts →**]({{ site.baseurl }}/blog)
