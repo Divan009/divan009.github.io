@@ -19,7 +19,6 @@ I can usually be found either programming or learning new stuff like Poker 🤑 
 
 - [_Designing Data Intensive Applications_](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 
-
 Tech which I have use primarily:
 - Python 🐍 
 - Golang
@@ -30,8 +29,8 @@ Tech which I have use primarily:
 - Celery
 - Flask / FastAPI
 - NGINX
-- gunicorn
-
+- Gunicorn
+- Docker
 <br>
 
 [**See latest blog posts →**]({{ site.baseurl }}/blog)
