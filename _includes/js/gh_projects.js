@@ -39,13 +39,13 @@ jQuery.fn.getRepos = function (username) {
             filteredRepos["arXie-Bot"] = true;
 
             /* alert(repos.length); Only for checking how many items are returned. */
-            // try {
-            //     sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
-            //     repos = repos.filter(r => !(r.name in filteredRepos));
-            // } catch (err) {
-            //     target.empty().append(errElement);
-            //     return;
-            // }
+            try {
+                sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
+                repos = repos.filter(r => !(r.name in filteredRepos));
+            } catch (err) {
+                target.empty().append(errElement);
+                return;
+            }
 
             var list = $('<dl/>');
             target.empty().append(list);
