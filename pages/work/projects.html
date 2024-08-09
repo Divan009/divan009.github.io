@@ -11,7 +11,7 @@ js:
 <h1>Projects</h1>
 
 <p>
-  Side-projects, and open source code. Click-through to check out the
+  Side-projects and open source code. Click-through to check out the
   work in more detail.
 </p>
 
@@ -43,17 +43,18 @@ js:
 </div>
 
 {% for js in page.js %}
-<script type="text/javascript">
-  {% include {{ js }} %}
-</script>
+<script src="{{ site.baseurl }}/{{ js }}"></script>
 {% endfor %}
 
 <script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
 <script type="text/javascript">
   $(function () {
-    $("#display-projects").getRepos(
-      "Divan009"
-    ); /* Add your github username. */
+    if (typeof $.fn.getRepos === 'function') {
+      console.log('getRepos function exists');
+      $("#display-projects").getRepos("Divan009"); /* Add your GitHub username. */
+    } else {
+      console.error('getRepos function does NOT exist');
+    }
   });
 </script>
 
