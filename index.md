@@ -35,3 +35,6 @@ Tech which I have use primarily:
 <br>
 
 [**See latest blog posts →**]({{ site.baseurl }}/blog)
+
+<br>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fdivan009.github.io&count_bg=%2365D1D3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
