@@ -21,7 +21,7 @@ I work as a Software Engineer, focused mostly on the building the backend system
 them on the cloud and maintaing it _perks of being in a startup_. One of the most cool projects I have worked on was do with multi-tenancy and making it scalable on a monolith. I am 
 also learning Golang now, because why not? :)
 
-### where I'm at now
+### where I can be found
 
 I live in Bangalore, a city with such a vibrant tech culture that it's practically buzzing with code. When I first arrived, it didn't take long 
 to realize one thing: I was going to be here for a _very_ long time. :)
