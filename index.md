@@ -19,9 +19,10 @@ I can usually be found either programming or learning new stuff like German, Pok
 
 - [_Designing Data Intensive Applications_](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 
-Tech which I have use primarily:
-- Python 🐍 
-- Golang
+Tech which I use frequently:
+
+- Python 🐍 - _i eat sleep & breathe it_
+- Golang - _hoping to make it my 🐍_
 - Django
 - PostgreSQL
 - Google Cloud Platform
