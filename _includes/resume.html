@@ -1,0 +1,16 @@
+<script language="javascript">
+    function autoResizeDiv()
+    {
+        document.getElementById('full-screen-me').style.height = window.innerHeight +'px';
+    }
+    window.onresize = autoResizeDiv;
+    autoResizeDiv();
+</script>
+<style type="text/css">
+body {
+overflow:hidden;
+}
+</style>
+<iframe id="full-screen-me"
+src="https://docs.google.com/document/d/1bUj36-nThsMqrQcFB6t9vcla7hEXoHZHww595LnqHFY/pub?embedded=true"
+style="overflow:hidden;height:100%;width:100%" frameborder="0" wmode="transparent"></iframe>
