@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /about/
-title: A little bit about me.
+title: a little bit about me.
 tags: about
 headshot: /images/with_cat.jpg
 ---
@@ -9,9 +9,9 @@ headshot: /images/with_cat.jpg
 ### intro.
 
 I never wrote a line of code until college. Coming from a family where everyone was expected to take up commerce, 
-that’s exactly what I was supposed to do too. But then it hit me—I really didn't want to pursue any of the subjects I’d studied so far as a career. 
+that’s exactly what I was supposed to do too. But then it hit me — I really didn't want to pursue any of the subjects I’d studied so far as a career. 
 So, naturally, I did the only logical thing: _Inky pinky ponky'd_ my career over to computers and coding —seriously, no kidding. I enrolled in 
-whichever college would take a commerce kid with zero coding experience and thus began my adventure! 
+whichever college would take a commerce kid with zero coding experience and thus began my adventure! 💗💗
 
 Oh I love cats 🐈 _kitty kitty kitty_ and ofcourse I am allergic to them, but that has never stopped me from expressing my love.
 
