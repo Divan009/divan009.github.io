@@ -62,6 +62,6 @@ exclude: [vendor]
 collections_dir: collections
 collections:
   reviews:
-    output: true
+    output: false
   portfolio:
-    output: true
+    output: false
