@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Library
 permalink: /library/
@@ -54,4 +54,4 @@ All my book reviews are at [/reviews]({{ site.baseurl }}/reviews).
   transform: scale(1.02);
 }
 
-</style>
+</style> -->
