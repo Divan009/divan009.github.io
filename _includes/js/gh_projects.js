@@ -27,18 +27,18 @@ jQuery.fn.getRepos = function (username) {
         function (data) {
             var repos = data.data; /* JSON Parsing */
             const filteredRepos = {};
-            // filteredRepos["library-management-slack-bot"] = true;
-            // filteredRepos["bazel-build_python_zip-bug-reproduction"] = true;
-            // filteredRepos["dotfiles"] = true;
-            // filteredRepos["homebrew-formulae"] = true;
-            // filteredRepos["ghportfolio"] = true;
-            filteredRepos["divan009.github.io"] = true;
-            // filteredRepos["thundergolfer"] = true;
-            // filteredRepos["golang-reactjs-skeleton-app"] = true;
-            // filteredRepos["bazel-python-mypy-protobuf"] = true;
-            // filteredRepos["arXie-Bot"] = true;
+            filteredRepos["library-management-slack-bot"] = true;
+            filteredRepos["bazel-build_python_zip-bug-reproduction"] = true;
+            filteredRepos["dotfiles"] = true;
+            filteredRepos["homebrew-formulae"] = true;
+            filteredRepos["ghportfolio"] = true;
+            filteredRepos["thundergolfer.github.io"] = true;
+            filteredRepos["thundergolfer"] = true;
+            filteredRepos["golang-reactjs-skeleton-app"] = true;
+            filteredRepos["bazel-python-mypy-protobuf"] = true;
+            filteredRepos["arXie-Bot"] = true;
 
-            alert(repos.length); /* Only for checking how many items are returned. */
+            /* alert(repos.length); Only for checking how many items are returned. */
             try {
                 sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
                 repos = repos.filter(r => !(r.name in filteredRepos));
