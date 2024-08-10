@@ -1,6 +1,6 @@
 jQuery.gitUser = function (username, callback, errCallback) {
     /* Change per_page according to your need. */
-    jQuery.getJSON('https://api.github.com/users/' + username + '/repos?per_page=100&callback=?')
+    jQuery.getJSON('https://api.github.com/users/' + username + '/repos?per_page=10&callback=?')
         .done(function (data) {
             callback(data);
         })
