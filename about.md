@@ -17,7 +17,7 @@ Oh I love cats 🐈 _kitty kitty kitty_ and ofcourse I am allergic to them, but 
 
 ### what I do
 
-I work as a Software Engineer, focused mostly on the building the backend systems. I have done everything from designing the architecture, APIs, DB 📓✒️ to developing them 🐱‍💻, then deploying
+I work as a Software Engineer, focused mostly on the building the backend systems. I have done everything from designing the architecture, engineering solutions for noisy neighbour problem, to designing efficient DB schemas 📓✒️ to developing them 🐱‍💻, then deploying
 them on the cloud and maintaing it _perks of being in a startup_. One of the most cool projects I have worked on was do with multi-tenancy and making it scalable on a monolith. I am 
 also learning Golang now, because why not? :)
 
