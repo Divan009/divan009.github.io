@@ -1,211 +1,30 @@
 ---
 layout: default
-title: Open Source Projects
+title: Projects & Open-Source
 tags: projects
 permalink: /projects/
+js:
+- js/gh_projects.js
+- js/util_buttons.js
 ---
-
-<h1>Projects</h1>
-
-<p>
-  Challenges, side-projects, and open source code. Click-through to check out the
-  work in more detail.
-</p>
-
-<hr />
-
-<h2>ongoing challenges</h2>
-
-<a
-  style="color: black"
-  href="https://codingchallenges.fyi/challenges/intro/"
-  aria-label="Coding Challenges"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <div
-    class="ongoing-challenges"
-    style="
-      display: flex;
-      align-items: center;
-      border: 1px solid #999;
-      border-radius: 5px;
-      margin-bottom: 1em;
-    "
-  >
-    <div>
-      <span class="sr-only">Modal labs</span>
-      <img
-        src="{{ site.url }}/images/codingchallenges.png"
-        height="75"
-        width="75"
-        style="min-width: 75px; margin: 12.5px;"
-        alt="Coding Challenges"
-      />
-    </div>
-    <div>
-      <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-        Coding Challenges
-      </h4>
-      <p class="leading-5 text-gray-700 dark:text-gray-300">
-        Weekly challenges which I do from <a href="https://github.com/Divan009/coding-challenges" target="_blank" rel="noopener noreferrer">time to time</a>.
-      </p>
-    </div>
-  </div>
-</a>
-
-<a
-  style="color: black"
-  href="https://hackattic.com/challenges"
-  aria-label="Hackattic"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <div
-    class="ongoing-challenges"
-    style="
-      display: flex;
-      align-items: center;
-      border: 1px solid #999;
-      border-radius: 5px;
-      margin-bottom: 1em;
-    "
-  >
-    <div style="display: flex; align-items: center">
-      <span class="sr-only">Hackattic</span>
-      <img
-        src="{{ site.url }}/images/Hackattic.jpg"
-        height="75"
-        width="75"
-        style="min-width: 75px; margin: 12.5px;"
-        alt="Hackattic"
-      />
-    </div>
-    <div>
-      <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-        Hackattic
-      </h4>
-      <p class="leading-5 text-gray-700 dark:text-gray-300">
-        These challenges are cool, should <a href="https://github.com/Divan009/hackattic-challenges" target="_blank" rel="noopener noreferrer">try it out</a>.
-      </p>
-    </div>
-  </div>
-</a>
-
-<a
-  style="color: black"
-  href="https://github.com/Divan009/SoundCloud_scraper"
-  aria-label="medium_post_parser"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <div
-    class="ongoing-challenges"
-    style="
-      display: flex;
-      align-items: center;
-      border: 1px solid #999;
-      border-radius: 5px;
-      margin-bottom: 1em;
-    "
-  >
-    <div style="display: flex; align-items: center">
-      <span class="sr-only">medium_post_parser</span>
-      <img
-        src="{{ site.url }}/images/Medium.webp"
-        height="75"
-        width="75"
-        style="min-width: 75px; margin: 12.5px;"
-        alt="Medium to MD Parser"
-      />
-    </div>
-    <div>
-      <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-        Medium To MD file parser
-      </h4>
-      <p class="leading-5 text-gray-700 dark:text-gray-300">
-        Parsing Medium blogs to MD file.
-      </p>
-    </div>
-  </div>
-</a>
-
-<a
-  style="color: black"
-  href="https://github.com/Divan009/SoundCloud_scraper"
-  aria-label="SoundCloud_scraper"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <div
-    class="ongoing-challenges"
-    style="
-      display: flex;
-      align-items: center;
-      border: 1px solid #999;
-      border-radius: 5px;
-      margin-bottom: 1em;
-    "
-  >
-    <div style="display: flex; align-items: center">
-      <span class="sr-only">SoundCloud_scraper</span>
-      <img
-        src="{{ site.url }}/images/Soundcloud.png"
-        height="75"
-        width="75"
-        style="min-width: 75px; margin: 12.5px;"
-        alt="SoundCloud Tool"
-      />
-    </div>
-    <div>
-      <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-        SoundCloud Tool
-      </h4>
-      <p class="leading-5 text-gray-700 dark:text-gray-300">
-        One of the first projects I did to learn Python during college.
-      </p>
-    </div>
-  </div>
-</a>
-
-<hr />
-
-<h2>Public Repos</h2>
 
 <div id="display-projects"></div>
 
 <div class="circle-button">
-  <div
-    class="top-circle"
-    data-sr-id="80"
-    style="visibility: visible; transform: scale(1); opacity: 1; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;"
-  >
-    <img src="{{ site.url }}/images/logos/top.png" alt="Top" />
+      <div class="top-circle" data-sr-id="80" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+        <img src="{{ site.url }}/images/logos/top.png">
   </div>
 </div>
 
-<!-- Include jQuery (make sure this is loaded before any JS that uses $) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+{% for js in page.js %}
+  <script type="text/javascript">
+  {% include {{ js }} %}
+  </script>
+{% endfor %}
 
-<!-- Include your custom JavaScript files -->
-<script src="{{ site.baseurl }}/js/gh_projects.js"></script>
-<script src="{{ site.baseurl }}/js/util_buttons.js"></script>
-
-<!-- Include any additional libraries -->
 <script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
-
 <script type="text/javascript">
-  $(function () {
-    // Calls the getRepos function defined in gh_projects.js
-    $("#display-projects").getRepos("Divan009");
+  $(function() {
+    $("#display-projects").getRepos("Divan009"); /* Add your github username. */
   });
 </script>
-
-<style>
-  .ongoing-challenges {
-    transition: all 0.2s ease-in-out;
-  }
-  .ongoing-challenges:hover {
-    transform: scale(1.01);
-  }
-</style>
