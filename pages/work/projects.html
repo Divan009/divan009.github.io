@@ -49,12 +49,17 @@ js:
 
 <script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
 <script type="text/javascript">
+  // $(function () {
+  //   $("#display-projects").getRepos("divan009", {
+  //     count: 100, // show up to 100 repos
+  //     sort: "created", // sort by creation date (new to old)
+  //   }); /* Add your github username. */
+  // });
+
   $(function () {
-    $("#display-projects").getRepos("divan009", {
-      // count: 100, // show up to 100 repos
-      // sort: "created", // sort by creation date (new to old)
-    }); /* Add your github username. */
+    $("#display-projects").getRepos("divan009"); /* Add your github username. */
   });
+
 </script>
 
 <style>
