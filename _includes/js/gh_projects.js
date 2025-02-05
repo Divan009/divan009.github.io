@@ -27,7 +27,7 @@ jQuery.fn.getRepos = function (username) {
         function (data) {
             var repos = data.data; /* JSON Parsing */
             const filteredRepos = {};
-            filteredRepos["Cust_churn"] = true;
+            // filteredRepos["Cust_churn"] = true;
             // filteredRepos["dumgo"] = true;
             filteredRepos["divan009.github.io"] = true;
             filteredRepos["divan009"] = true;
