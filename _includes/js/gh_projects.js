@@ -28,13 +28,12 @@ jQuery.fn.getRepos = function (username) {
             var repos = data.data; /* JSON Parsing */
             const filteredRepos = {};
             filteredRepos["Cust_churn"] = true;
-            filteredRepos["dumgo"] = true;
+            // filteredRepos["dumgo"] = true;
             filteredRepos["divan009.github.io"] = true;
             filteredRepos["divan009"] = true;
-
             /* alert(repos.length); Only for checking how many items are returned. */
             try {
-                // sortByCreated(repos); /* Sorting by forks. You can customize it according to your needs. */
+                sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
                 repos = repos.filter(r => !(r.name in filteredRepos));
             } catch (err) {
                 target.empty().append(errElement);
@@ -63,17 +62,11 @@ jQuery.fn.getRepos = function (username) {
             target.empty().append(errElement);
         });
 
-    // function sortByForks(repos) {
-    //     repos.sort(function (a, b) {
-    //         return b.forks - a.forks; /* Descending order for number of forks based sorting. */
-    //     });
-    // }
-    //
-    // function sortByCreated(repos) {
-    //     repos.sort(function (a, b) {
-    //         return new Date(b.created_at) - new Date(a.created_at);
-    //     });
-    // }
+    function sortByForks(repos) {
+        repos.sort(function (a, b) {
+            return b.forks - a.forks; /* Descending order for number of forks based sorting. */
+        });
+    }
 
     function mapLangToColor(lang) {
         map = {
