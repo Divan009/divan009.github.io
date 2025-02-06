@@ -55,15 +55,24 @@ jQuery.fn.getRepos = function (username) {
                 /* Check for username.github.com repo and for forked projects */
                 if ((this.name != (username.toLowerCase() + '.github.com')) && (checkfork != true)) {
                     list.append('<dt> \
-                            <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '"><h4 style="display: inline; padding-right: 2%;">' + this.name + '   </h4></a> \
-                            <div style="display: inline-block;"><span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
+                        <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '" target="_blank" rel="noopener noreferrer"> \
+                            <h4 style="display: inline; padding-right: 2%;">' + this.name + '</h4> \
+                        </a> \
+                        <div style="display: inline-block;"> \
+                            <span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
                             <span class="tag">Stars</span> \
-                            <a href=' + this.html_url + '><span class="numbertag">' + this.watchers + '</span></a> \
+                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer"> \
+                                <span class="numbertag">' + this.watchers + '</span> \
+                            </a> \
                             <span class="tag">Forks</span> \
-                            <a href=' + this.html_url + '><span class="numbertag">' + this.forks + '</span></a></div> \
-                            <div style="padding-top: 2%;"><p>' + emojione.shortnameToImage(this.description || "") + '</p></div> \
-                        ');
-                    /* Similarly fetch everything else you need. */
+                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer"> \
+                                <span class="numbertag">' + this.forks + '</span> \
+                            </a> \
+                        </div> \
+                        <div style="padding-top: 2%;"> \
+                            <p>' + emojione.shortnameToImage(this.description || "") + '</p> \
+                        </div> \
+                    </dt>');
                 }
             });
         },
