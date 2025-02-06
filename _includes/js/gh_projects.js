@@ -54,23 +54,23 @@ jQuery.fn.getRepos = function (username) {
                 checkfork = this.fork;
                 /* Check for username.github.com repo and for forked projects */
                 if ((this.name != (username.toLowerCase() + '.github.com')) && (checkfork != true)) {
-                    list.append('<dt> \
-                        <a style="font-size:20px;" href="' + (this.homepage ? this.homepage : this.html_url) + '" target="_blank" rel="noopener noreferrer"> \
-                            <h4 style="display: inline; padding-right: 2%;">' + this.name + '</h4> \
+                    list.append('<dt style="padding: 15px; margin-bottom: 10px; border-radius: 8px; background: linear-gradient(135deg, #ff00ff, #00ffff); box-shadow: 0px 0px 10px rgba(255, 0, 255, 0.8);"> \
+                        <a style="font-size:22px; font-weight: bold; color: #fff; text-shadow: 0px 0px 10px #ff00ff; text-decoration: none;" href="' + (this.homepage ? this.homepage : this.html_url) + '" target="_blank" rel="noopener noreferrer"> \
+                            <h4 style="display: inline; padding-right: 2%; color: #0ff; text-shadow: 0px 0px 15px cyan, 0px 0px 30px cyan;">' + this.name + '</h4> \
                         </a> \
                         <div style="display: inline-block;"> \
-                            <span class="lang" style="background:' + mapLangToColor(this.language) + '"></span> \
-                            <span class="tag">Stars</span> \
-                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer"> \
+                            <span class="lang" style="background:' + mapLangToColor(this.language) + '; border-radius: 50%; width: 10px; height: 10px; display: inline-block; box-shadow: 0px 0px 10px ' + mapLangToColor(this.language) + ';"></span> \
+                            <span class="tag" style="color: #ff0; text-shadow: 0px 0px 10px #ff0;">🌟 Stars</span> \
+                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer" style="color: #ff0; font-weight: bold; text-shadow: 0px 0px 10px #ff0;"> \
                                 <span class="numbertag">' + this.watchers + '</span> \
                             </a> \
-                            <span class="tag">Forks</span> \
-                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer"> \
+                            <span class="tag" style="color: #f0f; text-shadow: 0px 0px 10px #f0f;">🍴 Forks</span> \
+                            <a href="' + this.html_url + '" target="_blank" rel="noopener noreferrer" style="color: #f0f; font-weight: bold; text-shadow: 0px 0px 10px #f0f;"> \
                                 <span class="numbertag">' + this.forks + '</span> \
                             </a> \
                         </div> \
                         <div style="padding-top: 2%;"> \
-                            <p>' + emojione.shortnameToImage(this.description || "") + '</p> \
+                            <p style="color: #fff; font-size: 14px; text-shadow: 0px 0px 10px #0ff;">' + emojione.shortnameToImage(this.description || "No description available") + '</p> \
                         </div> \
                     </dt>');
                 }
