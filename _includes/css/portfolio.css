@@ -911,6 +911,29 @@ td {
 
 /* ==|== Dark Mode Styles ==================================================== */
 
+/* Dark Mode Toggle Button */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #ff00ff, #00ffff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #ff00ff;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999; /* Ensures it's on top */
+}
+
+.toggle-btn:hover {
+  box-shadow: 0px 0px 25px #00ffff;
+}
+
+
 body.dark-mode {
   background-color: #111;
   color: #fff;
