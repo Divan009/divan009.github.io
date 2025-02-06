@@ -1,6 +1,6 @@
 jQuery.gitUser = function (username, callback, errCallback) {
     /* Change per_page according to your need. */
-    jQuery.getJSON('https://api.github.com/users/' + username + '/repos?per_page=100&page=1&callback=?')
+    jQuery.getJSON('https://api.github.com/users/' + username + '/repos?per_page=100&sort=created&direction=desc&page=1&callback=?')
         .done(function (data) {
             callback(data);
         })
@@ -34,11 +34,11 @@ jQuery.fn.getRepos = function (username) {
             filteredRepos["django-imdb"] = true;
             filteredRepos["ecommerce-mern"] = true;
             filteredRepos["hackattic-challenges"] = true;
-            filteredRepos["git-py"] = true;
             filteredRepos["Front_End_Developer-Udacity"] = true;
             filteredRepos["coding-challenges"] = true;
             filteredRepos["Android_app"] = true;
             filteredRepos["Algorithms_DS"] = true;
+            filteredRepos["RDBMS_PY"] = true;
             /* alert(repos.length); Only for checking how many items are returned. */
             try {
                 sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
