@@ -19,4 +19,33 @@ $(document).ready(function () {
         window.print();
         return false;
     });
+
+    // Dark Mode Toggle Button
+    const toggleBtn = $('#darkModeToggle');
+    const body = $('body');
+
+    // Check localStorage for mode preference
+    if (localStorage.getItem("darkMode") === "enabled") {
+        enableDarkMode();
+    }
+
+    toggleBtn.click(function () {
+        if (body.hasClass("dark-mode")) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
+    });
+
+    function enableDarkMode() {
+        body.addClass("dark-mode");
+        localStorage.setItem("darkMode", "enabled");
+        toggleBtn.text("☀️ Light Mode");
+    }
+
+    function disableDarkMode() {
+        body.removeClass("dark-mode");
+        localStorage.setItem("darkMode", "disabled");
+        toggleBtn.text("🌙 Dark Mode");
+    }
 });

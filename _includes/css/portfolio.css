@@ -908,3 +908,91 @@ td {
       page-break-after: avoid;
     };
   }
+
+/* ==|== Dark Mode Styles ==================================================== */
+
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #0ff;
+  text-shadow: 0px 0px 10px #0ff;
+}
+
+body.dark-mode a:hover {
+  color: #ff0;
+}
+
+/* Headers */
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+}
+
+/* Buttons */
+body.dark-mode button, 
+body.dark-mode .toggle-btn {
+  background: linear-gradient(135deg, #222, #444);
+  color: white;
+  border: 1px solid #0ff;
+  box-shadow: 0px 0px 10px #0ff;
+}
+
+body.dark-mode button:hover, 
+body.dark-mode .toggle-btn:hover {
+  box-shadow: 0px 0px 15px #ff0;
+}
+
+/* Projects */
+body.dark-mode .projects li .project {
+  background-color: #222;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+body.dark-mode .projects .cover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+/* Navigation */
+body.dark-mode header {
+  background-color: #222;
+  border-bottom: 1px solid #0ff;
+}
+
+/* Icons */
+body.dark-mode .github-icon {
+  background-image: url(images/github-icon-white.png);
+}
+
+/* Table */
+body.dark-mode table {
+  border-color: #fff;
+}
+
+body.dark-mode td {
+  color: #ddd;
+}
+
+/* Forms */
+body.dark-mode input, 
+body.dark-mode textarea, 
+body.dark-mode select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #0ff;
+}
+
+/* Footer */
+body.dark-mode footer {
+  background-color: #222;
+  color: #ccc;
+}
