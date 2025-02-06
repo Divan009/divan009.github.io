@@ -28,6 +28,17 @@ jQuery.fn.getRepos = function (username) {
             var repos = data.data; /* JSON Parsing */
             const filteredRepos = {};
             filteredRepos["divan009.github.io"] = true;
+            filteredRepos["CodingChallenges"] = true;
+            filteredRepos["C-"] = true;
+            filteredRepos["divan009"] = true;
+            filteredRepos["django-imdb"] = true;
+            filteredRepos["ecommerce-mern"] = true;
+            filteredRepos["hackattic-challenges"] = true;
+            filteredRepos["git-py"] = true;
+            filteredRepos["Front_End_Developer-Udacity"] = true;
+            filteredRepos["coding-challenges"] = true;
+            filteredRepos["Android_app"] = true;
+            filteredRepos["Algorithms_DS"] = true;
             /* alert(repos.length); Only for checking how many items are returned. */
             try {
                 sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
@@ -50,7 +61,7 @@ jQuery.fn.getRepos = function (username) {
                             <a href=' + this.html_url + '><span class="numbertag">' + this.watchers + '</span></a> \
                             <span class="tag">Forks</span> \
                             <a href=' + this.html_url + '><span class="numbertag">' + this.forks + '</span></a></div> \
-                            <div style="padding-top: 2%;"><p>' + emojione.shortnameToImage(this.description) + (this.homepage ? ('<a href="' + this.homepage + '"> ' + this.homepage + '</a>') : "") + '</p></div> \
+                            <div style="padding-top: 2%;"><p>' + emojione.shortnameToImage(this.description || "") + '</p></div> \
                         ');
                     /* Similarly fetch everything else you need. */
                 }
