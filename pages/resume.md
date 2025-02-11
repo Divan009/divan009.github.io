@@ -6,7 +6,7 @@ tags: resume
 flicker: true
 ---
 
-#### You can download a shorter single page version [here](https://raw.githubusercontent.com/Divan009/divan009.github.io/main/SWE%20Resume.pdf).
+#### You can download a shorter single page version [here](https://raw.githubusercontent.com/Divan009/divan009.github.io/main/Diva_Dugar_SWE_Resume_2025.pdf).
 ---
 
 <iframe id="ifrml" 
