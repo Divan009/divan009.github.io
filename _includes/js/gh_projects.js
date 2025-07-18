@@ -9,6 +9,15 @@ jQuery.gitUser = function (username, callback, errCallback) {
         });
 };
 
+const SHOW_ONLY = [
+    "git-py",
+  "ProductCrawlerZ",
+  "AsyncFlowLB",
+  "http-server-go",
+    "GoPostgres",
+    "Inkstone2",
+];
+
 jQuery.fn.getRepos = function (username) {
     const errElement = `
         <div style="text-align: center; margin: 20% 0">
@@ -42,7 +51,7 @@ jQuery.fn.getRepos = function (username) {
             /* alert(repos.length); Only for checking how many items are returned. */
             try {
                 sortByForks(repos); /* Sorting by forks. You can customize it according to your needs. */
-                repos = repos.filter(r => !(r.name in filteredRepos));
+                repos = repos.filter(r => SHOW_ONLY.includes(r.name));
             } catch (err) {
                 target.empty().append(errElement);
                 return;
