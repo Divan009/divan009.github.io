@@ -26,7 +26,7 @@ You’ll usually find me programming, learning something new (like **German**, *
 A lightweight, event-driven **layer-4/7 load balancer** with pluggable congestion-control support.
 
 
-#### 🔹 TextEditor *(WIP)*  
+#### 🔹 TextEditor 
 **Tech:** Python  
 A minimalist, cross-platform **Vim-style editor** focused on speed and composability.
 
