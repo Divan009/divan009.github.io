@@ -15,7 +15,7 @@ const SHOW_ONLY = [
   "AsyncFlowLB",
   "http-server-go",
     "GoPostgres",
-    "Inkstone2",
+    "medium2md",
 ];
 
 jQuery.fn.getRepos = function (username) {
