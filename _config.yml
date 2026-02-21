@@ -1,10 +1,16 @@
 # Site settings
 title: Diva Dugar
-author: Diva Dugar
-description: ""
+author:
+  name: Diva Dugar
+  url: "https://divan009.github.io/"
+  twitter: divadugarr
+description: "Software engineer. Projects, writing, and portfolio."
 baseurl: ""
-url: ""
+url: "https://divan009.github.io"
 date_format: "%b %-d, %Y"
+tagline: "Software engineer"
+timezone: Asia/Kolkata
+
 
 # Google services
 google_verification:
@@ -16,10 +22,10 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-show_related_posts: True
-show_post_footers: True
-show_subscribe_cta: True
-show_social_icons: True
+show_related_posts: true
+show_post_footers: true
+show_subscribe_cta: true
+show_social_icons: true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -56,6 +62,8 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
 
@@ -65,3 +73,17 @@ collections:
     output: false
   portfolio:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-card.png
+      seo_description_max_words: 160
+
+social:
+  name: Diva Dugar
+  links:
+    - https://github.com/divan009
+    - https://www.linkedin.com/in/divadugar/
+    - https://twitter.com/divadugarr
