@@ -1,0 +1,17 @@
+- title: "Attention Is All You Need"
+  authors: ["Vaswani", "Shazeer", "Parmar", "et al."]
+  year: 2017
+  venue: "NeurIPS"
+  link: "https://arxiv.org/abs/1706.03762"
+  tags: [ml, transformers]
+  status: read   # read | reading | to-read
+  note: "Introduced Transformers; great for understanding self-attention."
+
+- title: "The Google File System"
+  authors: ["Ghemawat", "Gobioff", "Leung"]
+  year: 2003
+  venue: "SOSP"
+  link: "https://research.google/pubs/pub51/"
+  tags: [systems, storage]
+  status: to-read
+  note: "Classic distributed storage design."

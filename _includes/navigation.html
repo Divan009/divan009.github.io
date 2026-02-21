@@ -1,8 +1,8 @@
 <nav class="">
-<ul id="main-menu" data-nav-showing="false">
-  <!-- <li class="nav-jr home-anc"><h4><a href="#home"><br></a></h4></li> -->
-  {% assign current = page.url | downcase | split: '/' %}
-  <div class="flexbox-parent" style="display: flex; flex-wrap: wrap">
+  <ul id="main-menu" data-nav-showing="false">
+    <!-- <li class="nav-jr home-anc"><h4><a href="#home"><br></a></h4></li> -->
+    {% assign current = page.url | downcase | split: '/' %}
+    <div class="flexbox-parent" style="display: flex; flex-wrap: wrap">
       <li class="about-anc" style="display: inline">
         <a class="nav-underline home {% if page.url == '/' %}current{% endif %}" href="{{site.url}}/">home</a>
       </li>
@@ -13,19 +13,22 @@
         <a class="nav-underline about {% if page.url == '/about/' %}current{% endif %}" href="{{site.url}}/about">me</a>
       </li>
       <li class="beliefs-anc" style="display: inline">
-        <a class="nav-underline open-source {% if page.url == '/projects/' %}current{% endif %}" href="{{site.url}}/projects">projects</a>
+        <a class="nav-underline open-source {% if page.url == '/projects/' %}current{% endif %}"
+          href="{{site.url}}/projects">projects</a>
       </li>
-      <!-- <li class="team-anc" style="display: inline">
-        <a class="nav-underline library {% if page.url == '/library/' %}current{% endif %}" href="{{site.url}}/library">Library</a>
-      </li> -->
+      <li class="team-anc" style="display: inline">
+        <a class="nav-underline library {% if page.url == '/books/' %}current{% endif %}"
+          href="{{site.url}}/books">books</a>
+      </li>
       <li class="resume-anc" style="display: inline">
-        <a class="nav-underline resume {% if page.url == '/resume/' %}current{% endif %}" href="{{site.url}}/resume">resume</a>
+        <a class="nav-underline resume {% if page.url == '/resume/' %}current{% endif %}"
+          href="{{site.url}}/resume">resume</a>
       </li>
       <li>
         {% if site.show_social_icons %}
         {% include social_links.html %}
         {% endif %}
       </li>
-  </div>
-</ul>
+    </div>
+  </ul>
 </nav>

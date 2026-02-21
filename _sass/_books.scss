@@ -1,0 +1,124 @@
+/* Scoped to books page only */
+.books-page {
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.books-page h2 {
+    margin-top: 2.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    margin: 14px 0 28px;
+}
+
+.book-card {
+    border: 1px solid rgba(127, 127, 127, 0.25);
+    border-radius: 14px;
+    padding: 16px 16px 14px;
+    background: rgba(127, 127, 127, 0.06);
+    transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.book-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.book-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.book-title {
+    font-size: 1.05rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0;
+}
+
+.book-badges {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.book-author {
+    margin-top: 6px;
+    opacity: 0.75;
+}
+
+.book-vibe {
+    margin-top: 8px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.book-note {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.book-tags {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.book-tag,
+.book-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(127, 127, 127, 0.35);
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    opacity: 0.9;
+}
+
+.book-badge--fav {
+    font-weight: 700;
+}
+
+.book-link-icon {
+    margin-left: 6px;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+/* If your theme adds automatic link icons, you can neutralize it just for this page: */
+.books-page .book-title-link {
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
+.books-page .book-title-link:hover {
+    text-decoration-thickness: 2px;
+}
+
+.book-posts {
+    margin-top: 12px;
+}
+
+.book-posts-label {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-bottom: 6px;
+}
+
+.book-posts-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.book-posts-list li {
+    margin: 4px 0;
+}

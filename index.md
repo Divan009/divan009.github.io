@@ -6,7 +6,7 @@ tags: home
 # 👋 Hey, I'm Diva Dugar
 
 I'm a software engineer focused on **backend engineering** and **AI model integration**.  
-Currently, I’m building a **multi-tenant platform** that performs similarity searches on documents.
+
 
 You’ll usually find me programming, learning something new (like **German**, **Poker** 🤑, or **Golang**), or writing on [Medium](https://medium.com/@divadugar).
 
@@ -14,31 +14,12 @@ You’ll usually find me programming, learning something new (like **German**, *
 
 ### 📚 Currently Reading
 
-- [_Designing Data-Intensive Applications_](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-- [_Head First Design Patterns_](https://www.oreilly.com/library/view/head-first-design/0596007124/)
+- [_Operating Systems: Three Easy Pieces_](https://www.goodreads.com/book/show/17374825-operating-systems)
 
----
+<!-- --- -->
 
-### 🛠️ Projects I'm Working On
-
-#### 🔹 [AsyncFlowLB](https://github.com/divan009/AsyncFlowLB)  
-**Tech:** Python • FastAPI • asyncio  
-A lightweight, event-driven **layer-4/7 load balancer** with pluggable congestion-control support.
-
-
-#### 🔹 TextEditor 
-**Tech:** Python  
-A minimalist, cross-platform **Vim-style editor** focused on speed and composability.
-
-[**follow my other projects**]({{ site.baseurl }}/projects)
-
----
-
-### 🎓 Learning Journey
-
-#### 🔸 [Nand2Tetris](https://www.coursera.org/learn/build-a-computer/)  
-**Tech:** HDL  
-Building a full **16-bit computer from scratch** — from hardware gates to a working compiler. Blogging milestones weekly.
+<!-- ### 🛠️ Projects I'm Working On -->
+<!-- [**follow my other projects**]({{ site.baseurl }}/projects) -->
 
 ---
 

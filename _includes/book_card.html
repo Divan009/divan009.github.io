@@ -1,0 +1,53 @@
+<article class="book-card">
+    <div class="book-header">
+        <div class="book-title">
+            {% if b.link %}
+            <a class="book-title-link" href="{{ b.link }}" target="_blank" rel="noopener noreferrer">
+                {{ b.title }} <span class="book-link-icon" aria-hidden="true">🔗</span>
+            </a>
+            {% else %}
+            {{ b.title }}
+            {% endif %}
+        </div>
+
+        <div class="book-badges">
+            {% if b.favorite %}<span class="book-badge book-badge--fav">favorite</span>{% endif %}
+            {% if b.status %}<span class="book-badge book-badge--status">{{ b.status }}</span>{% endif %}
+        </div>
+    </div>
+
+    {% if b.author %}<div class="book-author">{{ b.author }}</div>{% endif %}
+    {% if b.vibe %}<div class="book-vibe">{{ b.vibe }}</div>{% endif %}
+    {% if b.note %}<p class="book-note">{{ b.note }}</p>{% endif %}
+
+    {% if b.tags %}
+    <div class="book-tags">
+        {% for t in b.tags %}
+        <span class="book-tag">{{ t }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% assign related = "" %}
+
+    {% if b.id %}
+    {% assign related = site.posts | where: "book", b.id %}
+    {% endif %}
+
+    {% if related and related.size > 0 %}
+    <div class="book-posts">
+        <div class="book-posts-label">My blog posts</div>
+        <ul class="book-posts-list">
+            {% for post in related %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% elsif b.notes_coming %}
+    <div class="book-posts">
+        <div class="book-posts-label">Notes</div>
+        <p class="book-posts-empty">Coming soon.</p>
+    </div>
+    {% endif %}
+
+</article>

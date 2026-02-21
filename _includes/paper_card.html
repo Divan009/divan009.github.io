@@ -1,0 +1,33 @@
+<article class="paper-card">
+    <div class="paper-header">
+        <h3 class="paper-title">
+            {% if p.link %}
+            <a href="{{ p.link }}">{{ p.title }}</a>
+            {% else %}
+            {{ p.title }}
+            {% endif %}
+        </h3>
+
+        {% if p.status %}
+        <span class="paper-badge">{{ p.status }}</span>
+        {% endif %}
+    </div>
+
+    <div class="paper-meta">
+        {% if p.authors %}{{ p.authors | join: ", " }}{% endif %}
+        {% if p.venue %} · {{ p.venue }}{% endif %}
+        {% if p.year %} · {{ p.year }}{% endif %}
+    </div>
+
+    {% if p.note %}
+    <p class="paper-note">{{ p.note }}</p>
+    {% endif %}
+
+    {% if p.tags %}
+    <div class="paper-tags">
+        {% for t in p.tags %}
+        <span class="paper-tag">{{ t }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>

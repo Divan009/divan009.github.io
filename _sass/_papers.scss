@@ -1,0 +1,60 @@
+/* Papers section inside /books/ page */
+.papers-subhead {
+    margin: 1rem 0 0.25rem;
+    opacity: 0.85;
+}
+
+.papers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+    margin: 12px 0 20px;
+}
+
+.paper-card {
+    border: 1px solid rgba(127, 127, 127, 0.25);
+    border-radius: 14px;
+    padding: 16px;
+    background: rgba(127, 127, 127, 0.06);
+}
+
+.paper-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.paper-title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.2;
+}
+
+.paper-meta {
+    margin-top: 6px;
+    opacity: 0.75;
+}
+
+.paper-note {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.paper-tags {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.paper-tag,
+.paper-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(127, 127, 127, 0.35);
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    opacity: 0.9;
+}
