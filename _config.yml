@@ -1,9 +1,6 @@
 # Site settings
 title: Diva Dugar
-author:
-  name: Diva Dugar
-  url: "https://divan009.github.io/"
-  twitter: divadugarr
+author: Diva Dugar
 description: "Software engineer. Projects, writing, and portfolio."
 baseurl: ""
 url: "https://divan009.github.io"
@@ -80,10 +77,3 @@ defaults:
     values:
       image: /assets/images/default-card.png
       seo_description_max_words: 160
-
-social:
-  name: Diva Dugar
-  links:
-    - https://github.com/divan009
-    - https://www.linkedin.com/in/divadugar/
-    - https://twitter.com/divadugarr
