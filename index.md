@@ -15,7 +15,7 @@ My work sits at the intersection of backend engineering and applied AI- designin
 
 ## 🧭 Now
 
-<!-- - Building a **distributed job execution system** (worker coordination, leases, retries, idempotency, failure recovery) -->
+<!-- - Building a **distributed job execution system** (worker coordination, leases, retries, idempotency, failure recovery) (ongoing  once done uncomment) -->
 - Deepening system fundamentals through hands-on projects (OS + networking + databases)
 - Writing about backend reliability and trade-offs- and everything in between
 - Learning **Golang** for systems programming
@@ -39,11 +39,6 @@ I write about backend engineering, system design, and lessons learned from build
 
 Current list: [currently reading]({{ "/books/#currently-reading" | relative_url }})
 
-<!-- --- -->
-
-<!-- ### 🛠️ Projects I'm Working On -->
-<!-- [**follow my other projects**]({{ site.baseurl }}/projects) -->
-
 ---
 
 ## 🧰 Tools I Use Frequently
@@ -55,7 +50,7 @@ Current list: [currently reading]({{ "/books/#currently-reading" | relative_url 
 **Observability:** OpenTelemetry, Prometheus, Grafana, Sentry  
 **Delivery:** GitLab CI/CD  
 
-<!-- **Model serving:** BentoML / KServe / Ray Serve / TorchServe -->
+<!-- **Model serving:** BentoML / KServe / Ray Serve / TorchServe (learning)-->
 ---
 
 ![Hits](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fdivan009.github.io%2F&label=&icon=github&color=%230dcaf0&message=&style=flat&tz=UTC)
