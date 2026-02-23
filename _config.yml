@@ -3,11 +3,10 @@ title: Diva Dugar
 author: Diva Dugar
 description: "Software engineer. Projects, writing, and portfolio."
 baseurl: ""
-url: "https://divan009.github.io"
+url: "https://divadugar.com"
 date_format: "%b %-d, %Y"
 tagline: "Software engineer"
 timezone: Asia/Kolkata
-
 
 # Google services
 google_verification:
@@ -17,6 +16,11 @@ google_analytics: G-4NYM1FE037
 google_tag_manager:
 # Bing services
 bing_verification:
+
+
+twitter:
+  username: divadugarr
+  card: summary
 
 # Optional features
 show_related_posts: true
@@ -49,13 +53,14 @@ text:
 
 # Build settings
 markdown: kramdown
-redcarpet:
-  extensions: ["smart", "tables", "with_toc_data", "footnotes"]
+# redcarpet:
+#   extensions: ["smart", "tables", "with_toc_data", "footnotes"]
 permalink: pretty
 paginate: 12
 paginate_path: "/blog/:num/"
 sass:
   compressed: true
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
