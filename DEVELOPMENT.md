@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 ## Development Documentation
 
 This information is only really useful for the site owner.
