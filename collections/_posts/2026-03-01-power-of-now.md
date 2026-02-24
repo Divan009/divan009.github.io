@@ -2,7 +2,7 @@
 layout: post
 title: "Notes on Practicing the Power of Now and How I’m Using It"
 book: practicing-the-power-of-now
-date: 2026-03-03
+date: 2026-03-01
 summary: "Notes on the book Practicing the Power of Now"
 categories: [book, non-fiction, mindfulness, spirituality]
 description: "My notes on Practicing the Power of Now by Eckhart Tolle: mindfulness practices, presence, reducing anxiety, and how I’m using the exercises in everyday life."
