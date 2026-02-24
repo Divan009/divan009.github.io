@@ -4,8 +4,9 @@ title: "Notes on Deep Work and How I’m Using It"
 book: deep-work
 date: 2026-02-21
 summary: "Notes on the book Deep Work"
+description: "My notes on Deep Work by Cal Newport: key ideas, actionable takeaways, and how I’m applying deep focus, distraction control, and deliberate practice in daily work."
 categories: [book, non-fiction, deep-work]
-permalink: deep-work
+permalink: /books/deep-work-notes/
 ---
 
 ## Main idea of the book

@@ -1,6 +1,8 @@
 - title: "The Google File System"
+  id: the-google-file-system
   authors: ["Ghemawat", "Gobioff", "Leung"]
   year: 2003
+  notes_coming: true
   venue: "SOSP"
   link: "https://research.google/pubs/pub51/"
   tags: [systems, storage]

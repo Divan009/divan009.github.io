@@ -11,8 +11,8 @@ permalink: /books/
     {% assign reading = books | where: "status", "reading" %}
     {% assign next = books | where: "status", "next" %}
     {% assign papers_reading = papers | where: "status", "reading" %}
-    {% assign papers_toread = papers | where: "status", "to-read" %}
-    {% assign papers_read = papers | where: "status", "read" %}
+    {% assign papers_next = papers | where: "status", "next" %}
+    {% assign papers_finished = papers | where: "status", "finished" %}
 
     <p>A mix of programming, non-fiction, and fiction. Notes are short + biased.</p>
 
@@ -90,19 +90,19 @@ permalink: /books/
     </div>
     {% endif %}
 
-    {% if papers_toread.size > 0 %}
-    <h3 class="papers-subhead">To read</h3>
+    {% if papers_next.size > 0 %}
+    <h3 class="papers-subhead">Up next</h3>
     <div class="papers-grid">
-        {% for p in papers_toread %}
+        {% for p in papers_next %}
         {% include paper_card.html p=p %}
         {% endfor %}
     </div>
     {% endif %}
 
-    {% if papers_read.size > 0 %}
-    <h3 class="papers-subhead">Read</h3>
+    {% if papers_finished.size > 0 %}
+    <h3 class="papers-subhead">Finished</h3>
     <div class="papers-grid">
-        {% for p in papers_read %}
+        {% for p in papers_finished %}
         {% include paper_card.html p=p %}
         {% endfor %}
     </div>

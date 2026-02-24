@@ -5,7 +5,8 @@ book: practicing-the-power-of-now
 date: 2026-03-03
 summary: "Notes on the book Practicing the Power of Now"
 categories: [book, non-fiction, mindfulness, spirituality]
-permalink: practicing-the-power-of-now
+description: "My notes on Practicing the Power of Now by Eckhart Tolle: mindfulness practices, presence, reducing anxiety, and how I’m using the exercises in everyday life."
+permalink: /books/practicing-the-power-of-now-notes/
 ---
 
 ## Main idea of the book

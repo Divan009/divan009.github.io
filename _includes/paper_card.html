@@ -30,4 +30,26 @@
         {% endfor %}
     </div>
     {% endif %}
+
+    {% assign related = "" %}
+
+    {% if p.id %}
+    {% assign related = site.posts | where: "paper", p.id %}
+    {% endif %}
+
+    {% if related and related.size > 0 %}
+    <div class="paper-posts">
+        <div class="paper-posts-label">My blog posts</div>
+        <ul class="paper-posts-list">
+            {% for post in related %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% elsif p.notes_coming %}
+    <div class="paper-posts">
+        <div class="paper-posts-label">Notes</div>
+        <p class="paper-posts-empty">Coming soon.</p>
+    </div>
+    {% endif %}
 </article>

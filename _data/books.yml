@@ -11,7 +11,7 @@
 - title: Designing Data-Intensive Applications
   id: ddia
   link: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
-  notes_coming: true
+  notes_coming: false
   author: Martin Kleppmann
   shelf: programming
   tags: [systems, databases]
@@ -25,10 +25,21 @@
   author: George Orwell
   shelf: fiction
   tags: [political-satire, allegory, dystopia]
-  status: reading
+  status: finished
+  vibe: "Short + razor-sharp"
+  note: Apt for the current global climate
+  link: "https://www.goodreads.com/book/show/170448.Animal_Farm"
+
+- title: 1984
+  id: 1984
+  notes_coming: true
+  author: George Orwell
+  shelf: fiction
+  tags: [classics, allegory, dystopia, politics]
+  status: next
   vibe: "Short + razor-sharp"
   note: 
-  link: "https://www.goodreads.com/book/show/170448.Animal_Farm"
+  link: "https://www.goodreads.com/book/show/61439040-1984"
 
 - title: the Power of Now
   id: practicing-power-of-now
@@ -36,7 +47,7 @@
   author: Eckhart Tolle
   shelf: nonfiction
   tags: [spirituality, mindfulness, self-help]
-  status: read
+  status: finished
   vibe: "Calm + grounding"
   note: "More exercises and reflections than theory."
   link: "https://www.goodreads.com/book/show/6709.Practicing_the_Power_of_Now"
@@ -54,7 +65,7 @@
 
 - title: "India After Gandhi: The History of the World's Largest Democracy"
   id: india-after-gandhi
-  notes_coming: true
+  notes_coming: false
   author: Ramachandra Guha
   shelf: nonfiction
   tags: [history, india, politics]
@@ -69,7 +80,7 @@
   author: "Harry J. W. Percival; Bob Gregory"
   shelf: programming
   tags: [python, software-architecture, tdd]
-  status: read
+  status: finished
   vibe: "Practical + pattern-heavy"
   note: "Commonly referred to as 'Cosmic Python' (from the companion site)."
   link: "https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python"
@@ -87,44 +98,44 @@
 
 - title: Call Me by Your Name
   id: call-me-by-your-name
-  notes_coming: true
+  notes_coming: false
   author: "André Aciman"
   shelf: fiction
   tags: [literary-fiction, romance, coming-of-age]
-  status: read
+  status: finished
   vibe: "Lyrical + intimate"
   note: "memory, desire, and a very specific kind of longing."
   link: "https://www.goodreads.com/book/show/98687"
 
 - title: The Immortals of Meluha
   id: immortals-of-meluha
-  notes_coming: true
+  notes_coming: false
   author: Amish Tripathi
   shelf: fiction
   tags: [mythological-fiction, fantasy, indian-fiction]
-  status: read
+  status: finished
   vibe: "Fast + mythic"
   note: "Book 1 of the Shiva Trilogy."
   link: "https://www.goodreads.com/book/show/7913305-the-immortals-of-meluha"
 
 - title: The Secret of the Nagas
   id: secret-of-the-nagas
-  notes_coming: true
+  notes_coming: false
   author: Amish Tripathi
   shelf: fiction
   tags: [mythological-fiction, fantasy, indian-fiction]
-  status: read
+  status: finished
   vibe: "Mystery + momentum"
   note: "Book 2 of the Shiva Trilogy."
   link: "https://www.goodreads.com/book/show/40948565-the-secret-of-the-nagas"
 
 - title: The Oath of the Vayuputras
   id: oath-of-the-vayaputras
-  notes_coming: true
+  notes_coming: false
   author: Amish Tripathi
   shelf: fiction
   tags: [mythological-fiction, fantasy, indian-fiction]
-  status: read
+  status: finished
   vibe: "Mystery + momentum"
   note: "Book 3 of the Shiva Trilogy. first series ever"
   link: "https://www.goodreads.com/book/show/12820793-the-oath-of-the-vayuputras"
@@ -153,11 +164,11 @@
 
 - title: The Catcher in the Rye
   id: catcher-in-the-rye
-  notes_coming: true
+  notes_coming: false
   author: "J. D. Salinger"
   shelf: fiction
   tags: [classic, coming-of-age, literary-fiction]
-  status: read
+  status: finished
   vibe: "Classic + raw"
   note: "relatable teenage angst"
   link: "https://www.goodreads.com/book/show/5107.The_Catcher_in_the_Rye"
@@ -168,14 +179,14 @@
   author: Angela Duckworth
   shelf: nonfiction
   tags: [psychology, habits, motivation]
-  status: read
+  status: finished
   vibe: "Motivating + research-backed"
   note: "A mix of studies, stories, and practical framing."
   link: "https://www.goodreads.com/book/show/27213329-grit"
 
 - title: A Little Life
   id: a-little-life
-  notes_coming: true
+  notes_coming: false
   author: Hanya Yanagihara
   shelf: fiction
   tags: [literary-fiction, friendship, trauma]

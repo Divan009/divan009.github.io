@@ -45,7 +45,7 @@ Current list: [currently reading]({{ "/books/#currently-reading" | relative_url 
 
 **Languages:** Python, Golang  
 **Backend:** FastAPI, Django, Flask  
-**Data & Queues:** PostgreSQL, Redis, Celery  
+**Data & Queues:** PostgreSQL, pgvector, Redis, Celery  
 **Infra:** Docker, NGINX, Gunicorn, GCP  
 **Observability:** OpenTelemetry, Prometheus, Grafana, Sentry  
 **Delivery:** GitLab CI/CD  
