@@ -1,6 +1,7 @@
 ---
 layout: default
 tags: home
+description: "This person is a software engineer who specialises in building reliable backend systems and infrastructure for AI workloads."
 ---
 
 # 👋 Hey, I'm Diva Dugar
@@ -37,7 +38,11 @@ I write about backend engineering, system design, and lessons learned from build
 ---
 ### 📚 Currently Reading
 
-Current list: [currently reading]({{ "/books/#currently-reading" | relative_url }})
+Tracking what I’m reading now and what’s next:
+- [Currently reading]({{ "/books/#currently-reading" | relative_url }})
+- [Up next]({{ "/books/#up-next" | relative_url }})
+
+If there is a book, you think I should read. You can email me.
 
 ---
 

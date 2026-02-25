@@ -1,7 +1,7 @@
 # Site settings
 title: Diva Dugar
 author: Diva Dugar
-description: "Software engineer. Projects, writing, and portfolio."
+description: "Diva Dugar is a software engineer building reliable backend systems and AI infrastructure- APIs, inference pipelines, and fault-tolerant production services. Projects + writing."
 baseurl: ""
 url: "https://divadugar.com"
 date_format: "%b %-d, %Y"
@@ -83,3 +83,7 @@ defaults:
     values:
       image: /assets/images/default-card.png
       seo_description_max_words: 160
+  - scope:
+      path: "assets/pvt"
+    values:
+      sitemap: false
