@@ -4,7 +4,7 @@ title: "Back-end Web Framework: Flask (Part 1: Beginning)"
 date: 2018-01-20
 summary: "Flask is a micro web framework written in Python..."
 categories: software-engineering, programming, python, flask
-permalink: backend-web-framework-1
+permalink: /blog/engineering/backend-web-framework-1/
 ---
 
 ![someone is coding](/images/christin-hume-mfB1B1s4sMc-unsplash.jpg)

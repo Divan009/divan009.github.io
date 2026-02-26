@@ -6,7 +6,7 @@ date: 2026-02-25
 summary: "Short read about this book. Definetly a must read"
 description: "Animal Farm by George Orwell: summary, themes, and character notes on propaganda, mass manipulation, and how revolutions can turn into dictatorship."
 categories: [animal-farm, george-orwell, political-satire, allegory, dystopia, propaganda, totalitarianism]
-permalink: /books/animal-farm/
+permalink: /blog/books/animal-farm/
 ---
 
 ![Animal Farm cover]({{ "/images/posts/patrick-perkins-Z3_uSvERPfM-unsplash.jpg" | relative_url }})

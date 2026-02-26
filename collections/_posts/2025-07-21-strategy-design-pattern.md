@@ -5,7 +5,7 @@ date: 2025-07-21
 summary: "Replace growing if/else blocks with Strategy + composition for cleaner, extensible checkout code."
 description: "Learn the Strategy design pattern in Python with a practical example: replace messy if/else logic using composition, interchangeable strategies, and clean checkout code."
 categories: [programming, python, design-patterns, lld]
-permalink: /python/strategy-design-pattern/
+permalink: /blog/engineering/strategy-design-pattern/
 ---
 
 * TOC
