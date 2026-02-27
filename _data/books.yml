@@ -56,6 +56,17 @@
   note: "More exercises and reflections than theory."
   link: "https://www.goodreads.com/book/show/6709.Practicing_the_Power_of_Now"
 
+- title: "An Illustrated Book of Bad Arguments"
+  id: an-illustrated-book-of-bad-arguments
+  notes_coming: true
+  author: Ali Almossawi
+  shelf: nonfiction
+  tags: [logic, critical-thinking, fallacies, reasoning]
+  status: reading
+  vibe: "Playful + intellectually sharp"
+  note: "A visual guide to common logical fallacies and how flawed reasoning sneaks into everyday arguments."
+  link: "https://www.goodreads.com/book/show/18753589-an-illustrated-book-of-bad-arguments"
+
 - title: "The Black Swan: The Impact of the Highly Improbable"
   id: the-black-swan
   notes_coming: true
