@@ -1,0 +1,49 @@
+.fin-bar {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 14px;
+}
+
+.fin-fill {
+    height: 100%;
+    width: 0%;
+    background: currentColor;
+}
+
+.fin-row {
+    margin: 12px 0 18px;
+}
+
+.fin-meta {
+    opacity: 0.75;
+    font-size: 0.95em;
+    margin-top: 6px;
+}
+
+.fin-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+@media (min-width: 700px) {
+    .fin-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.fin-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+.tag {
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.fin-subhead {
+    margin-top: 18px;
+}

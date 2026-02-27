@@ -1,0 +1,11 @@
+{%- assign href = include.href | default: "" -%}
+{%- assign text = include.text | default: "" -%}
+
+{%- if href != "" -%}
+{%- unless href contains '://' -%}
+{%- assign href = href | relative_url -%}
+{%- endunless -%}
+<a href="{{ href }}">{{ text }}</a>
+{%- else -%}
+{{ text }}
+{%- endif -%}

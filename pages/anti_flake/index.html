@@ -1,0 +1,121 @@
+---
+layout: page
+title: the anti-flake page
+permalink: /anti-flake/
+---
+
+{% assign fin_items = site.data.fin | default: empty %}
+{% assign books = site.data.books | default: empty %}
+
+{% assign current_year = site.time | date: "%Y" %}
+{% assign win_types = "shipped|learned|health|life" | split: "|" %}
+
+<p>A public accountability log. Small wins count.</p>
+
+<h2>{{ current_year }}</h2>
+{% include anti_flake/year_grid.html year=current_year fin_items=fin_items books=books win_types=win_types %}
+
+{%- assign fin_year = fin_items | where: "year", current_year -%}
+{%- assign books_year = books | where: "year", current_year -%}
+
+<h3>In Progress</h3>
+
+<h4 class="fin-subhead">Active</h4>
+<ul>
+    {% assign in_progress = fin_year | where: "status", "in_progress" %}
+    {% for i in in_progress limit: 5 %}
+    <li>
+        <strong>{% include smart_link.html href=i.link text=i.title %}</strong>
+        <span class="tag"> — {{ i.kind }}</span>
+        {% if i.notes %}<div class="fin-meta">{{ i.notes }}</div>{% endif %}
+    </li>
+    {% endfor %}
+    {% if in_progress.size == 0 %}
+    <li class="fin-meta">Nothing marked <code>in_progress</code> yet.</li>
+    {% endif %}
+</ul>
+
+<h4 class="fin-subhead">Books</h4>
+<ul>
+    {% assign reading = books_year | where: "status", "reading" %}
+    {% for b in reading limit: 5 %}
+    <li>
+        <strong>{% include smart_link.html href=b.link text=b.title %}</strong>
+        {% if b.author %} — {{ b.author }}{% endif %}
+    </li>
+    {% endfor %}
+    {% if reading.size == 0 %}
+    <li class="fin-meta">No books marked <code>reading</code> this year.</li>
+    {% endif %}
+</ul>
+
+<h4 class="fin-subhead">Parked</h4>
+<ul>
+    {% assign paused = fin_year | where: "status", "paused" %}
+    {% for i in paused limit: 3 %}
+    <li>
+        <strong>{{ i.title }}</strong>
+        <span class="tag"> — {{ i.kind }}</span>
+        {% if i.notes %}<div class="fin-meta">{{ i.notes }}</div>{% endif %}
+    </li>
+    {% endfor %}
+    {% if paused.size == 0 %}
+    <li class="fin-meta">Nothing paused.</li>
+    {% endif %}
+</ul>
+
+<h3>Completed</h3>
+
+<h4 class="fin-subhead">Commitments</h4>
+<ul>
+    {% assign done = fin_year | where: "status", "done" %}
+    {% for i in done %}
+    <li>
+        <strong>{% include smart_link.html href=i.link text=i.title %}</strong>
+        <span class="tag"> — {{ i.kind }}</span>
+        <div class="fin-meta">
+            {% if i.finished %}Finished: {{ i.finished }}{% endif %}
+            {% if i.notes %}<br />{{ i.notes }}{% endif %}
+        </div>
+    </li>
+    {% endfor %}
+    {% if done.size == 0 %}
+    <li class="fin-meta">No milestones marked <code>done</code> yet.</li>
+    {% endif %}
+</ul>
+
+{% assign finished_books = books_year | where: "status", "finished" %}
+{% if finished_books.size > 0 %}
+<h4 class="fin-subhead">Books</h4>
+<ul>
+    {% for b in finished_books limit: 2 %}
+    <li>
+        <strong>{% include smart_link.html href=b.link text=b.title %}</strong>
+        {% if b.author %} — {{ b.author }}{% endif %}
+        {% if b.note %}<div class="fin-meta">{{ b.note }}</div>{% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<p class="fin-meta"><a href="{{ '/books/' | relative_url }}">Open books page →</a></p>
+
+<hr />
+
+{%- capture years_csv -%}
+{%- for i in fin_items -%}{%- if i.year and i.year != "" -%}{{ i.year }},{%- endif -%}{%- endfor -%}
+{%- for b in books -%}{%- if b.year and b.year != "" and b.status != "next" -%}{{ b.year }},{%- endif -%}{%- endfor -%}
+{%- endcapture -%}
+{% assign years = years_csv | split: "," | uniq | sort | reverse %}
+
+<details>
+    <summary><strong>Previous years</strong></summary>
+
+    {% for yy in years %}
+    {% assign yy_clean = yy | strip %}
+    {% if yy_clean != "" and yy_clean != current_year %}
+    <h3>{{ yy_clean }}</h3>
+    {% include anti_flake/year_grid.html year=yy_clean fin_items=fin_items books=books win_types=win_types %}
+    {% endif %}
+    {% endfor %}
+</details>

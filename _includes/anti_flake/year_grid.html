@@ -1,0 +1,62 @@
+{%- assign y = include.year -%}
+{%- assign fin_items = include.fin_items -%}
+{%- assign books = include.books -%}
+{%- assign win_types = include.win_types -%}
+
+{%- assign fin_year = fin_items | where: "year", y -%}
+{%- assign fin_year_active = fin_year | reject: "status", "planned" -%}
+
+{%- assign books_year = books | where: "year", y -%}
+{%- assign books_learned = books_year | reject: "status", "next" -%}
+{%- assign books_finished = books_year | where: "status", "finished" -%}
+
+{%- assign books_learned_total = books_learned | size -%}
+{%- assign books_finished_total = books_finished | size -%}
+
+<div class="fin-grid">
+    {% for w in win_types %}
+    {% assign w_total = 0 %}
+    {% assign w_done = 0 %}
+
+    {%- comment -%} Count fin.yml items by win (with kind→win fallback) {%- endcomment -%}
+    {% for i in fin_year_active %}
+    {% assign iw = i.win | default: "" %}
+    {% if iw == "" %}
+    {% case i.kind %}
+    {% when "project" %}{% assign iw = "shipped" %}
+    {% when "fitness" %}{% assign iw = "health" %}
+    {% when "life" %}{% assign iw = "life" %}
+    {% when "learning" %}{% assign iw = "learned" %}
+    {% else %}{% assign iw = "shipped" %}
+    {% endcase %}
+    {% endif %}
+
+    {% if iw == w %}
+    {% assign w_total = w_total | plus: 1 %}
+    {% if i.status == "done" %}
+    {% assign w_done = w_done | plus: 1 %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {%- comment -%} Add books to learned {%- endcomment -%}
+    {% if w == "learned" %}
+    {% assign w_total = w_total | plus: books_learned_total %}
+    {% assign w_done = w_done | plus: books_finished_total %}
+    {% endif %}
+
+    {% assign w_percent = 0 %}
+    {% if w_total > 0 %}
+    {% assign w_percent = w_done | times: 100 | divided_by: w_total %}
+    {% endif %}
+
+    {% assign w_label = w | replace: "_", " " | capitalize %}
+
+    <div class="fin-card">
+        <strong>{{ w_label }}</strong> — {{ w_done }}/{{ w_total }} ({{ w_percent }}%)
+        <div class="fin-bar">
+            <div class="fin-fill" style="width: {{ w_percent }}%;"></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -26,15 +26,15 @@ also learning Golang now, because why not? :)
 I live in Bangalore, a city with such a vibrant tech culture that it's practically buzzing with code. When I first arrived, it didn't take long 
 to realize one thing: I was going to be here for a _very_ long time. :)
 
+---
+
+**Resume:** Email me if you want my latest resume or [archive]({{ "/resume/" | relative_url }})
+
+---
+
 <div id="stats" class="hidden">
 
 <h3 id="dashboard"><code>#dashboard</code></h3>
-
-<h2>Just finished.</h2>
-
-[//]: # (<p>Curious what I'm reading? Here's my most recent reads, updating daily. And my <a href="https://www.goodreads.com/user/show/88184044-jonathon-belotti&#41;" target="_blank" rel="noopener noreferrer">Goodreads profile</a> has more history.</p>)
-
-<div id="recent-finished-books"></div>
 
 <h2>Top tracks.</h2>
 

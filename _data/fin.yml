@@ -1,0 +1,62 @@
+- title: "adding a new page - anti-flake"
+  kind: "website" # one-word description
+  win: "shipped" # shipped | learned | health | life
+  year: "2026"
+  status: "done" # in_progress | done | paused
+  finished: "2026-02-27"
+
+# - title: "Exercise: 3x/week for 8 weeks"
+#   kind: "fitness"
+#   win: "health"
+#   year: "2026"
+#   status: "in_progress"
+#   deadline: "2026-04-10"
+
+- title: "fixing up my plants"
+  kind: "home"
+  win: "life"
+  year: "2026"
+  status: "done"
+  finished: "2026-02-27"
+
+# - title: "Distributed job execution system (leases, retries, idempotency)"
+#   kind: "project"
+#   win: "shipped"
+#   year: "2026"
+#   status: "in_progress"
+#   deadline: "2026-04-30"
+
+- title: "OSTEP: Chapter 6 + homework"
+  kind: "learning"
+  win: "learned"
+  year: "2026"
+  status: "in_progress"
+  deadline: "2026-03-07"
+
+# - title: "Golang book: chapters 1–4 + exercises"
+#   kind: "learning"
+#   win: "learned"
+#   year: "2026"
+#   status: "in_progress"
+#   deadline: "2026-03-20"
+
+- title: "Write article: Illustrations of Bad Arguments"
+  kind: "writing"
+  win: "shipped"
+  year: "2026"
+  status: "in_progress"
+  deadline: "2026-02-28"
+
+# - title: "Publish post: backend reliability trade-offs (timeouts/retries/idempotency)"
+#   kind: "writing"
+#   win: "shipped"
+#   year: "2026"
+#   status: "in_progress"
+#   deadline: "2026-03-10"
+
+# - title: "Observability demo: OpenTelemetry traces across API + worker"
+#   kind: "project"
+#   win: "shipped"
+#   year: "2026"
+#   status: "in_progress"
+#   deadline: "2026-03-25"

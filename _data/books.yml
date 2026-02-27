@@ -1,6 +1,6 @@
 - title: Deep Work
   id: deep-work
-  year: 2020
+  year: "2020"
   link: https://www.goodreads.com/book/show/25744928-deep-work
   author: Cal Newport
   shelf: nonfiction        # programming | nonfiction | fiction
@@ -11,7 +11,7 @@
 
 - title: Designing Data-Intensive Applications
   id: ddia
-  year: 2020
+  year: "2020"
   link: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
   notes_coming: false
   author: Martin Kleppmann
@@ -23,7 +23,7 @@
 
 - title: Animal Farm
   id: animal-farm
-  year: 2026
+  year: "2026"
   notes_coming: true
   author: George Orwell
   shelf: fiction
@@ -35,6 +35,7 @@
 
 - title: 1984
   id: 1984
+  year: "2026"
   notes_coming: true
   author: George Orwell
   shelf: fiction
@@ -45,7 +46,7 @@
   link: "https://www.goodreads.com/book/show/61439040-1984"
 
 - title: the Power of Now
-  year: 2018
+  year: "2018"
   id: practicing-power-of-now
   notes_coming: true
   author: Eckhart Tolle
@@ -58,6 +59,7 @@
 
 - title: "An Illustrated Book of Bad Arguments"
   id: an-illustrated-book-of-bad-arguments
+  year: "2026"
   notes_coming: true
   author: Ali Almossawi
   shelf: nonfiction
@@ -69,6 +71,7 @@
 
 - title: "The Black Swan: The Impact of the Highly Improbable"
   id: the-black-swan
+  year: "2026"
   notes_coming: true
   author: Nassim Nicholas Taleb
   shelf: nonfiction
@@ -80,6 +83,7 @@
 
 - title: "India After Gandhi: The History of the World's Largest Democracy"
   id: india-after-gandhi
+  year: "2025"
   notes_coming: false
   author: Ramachandra Guha
   shelf: nonfiction
@@ -90,7 +94,7 @@
   link: "https://www.goodreads.com/book/show/356824.India_After_Gandhi"
 
 - title: Architecture Patterns with Python
-  year: 2025
+  year: "2025"
   id: cosmic-python
   notes_coming: true
   author: "Harry J. W. Percival; Bob Gregory"
@@ -102,7 +106,7 @@
   link: "https://www.goodreads.com/book/show/50083115-architecture-patterns-with-python"
 
 - title: "Operating Systems: Three Easy Pieces"
-  year: 2026
+  year: "2026"
   id: ostep
   notes_coming: true
   author: "Remzi H. Arpaci-Dusseau; Andrea C. Arpaci-Dusseau"
@@ -114,7 +118,7 @@
   link: "https://www.goodreads.com/book/show/17374825-operating-systems"
 
 - title: Call Me by Your Name
-  year: 2025
+  year: "2025"
   id: call-me-by-your-name
   notes_coming: false
   author: "André Aciman"
@@ -126,7 +130,7 @@
   link: "https://www.goodreads.com/book/show/98687"
 
 - title: The Immortals of Meluha
-  year: 2010
+  year: "2010"
   id: immortals-of-meluha
   notes_coming: false
   author: Amish Tripathi
@@ -138,7 +142,7 @@
   link: "https://www.goodreads.com/book/show/7913305-the-immortals-of-meluha"
 
 - title: The Secret of the Nagas
-  year: 2010
+  year: "2010"
   id: secret-of-the-nagas
   notes_coming: false
   author: Amish Tripathi
@@ -150,7 +154,7 @@
   link: "https://www.goodreads.com/book/show/40948565-the-secret-of-the-nagas"
 
 - title: The Oath of the Vayuputras
-  year: 2010
+  year: "2010"
   id: oath-of-the-vayaputras
   notes_coming: false
   author: Amish Tripathi
@@ -162,6 +166,7 @@
   link: "https://www.goodreads.com/book/show/12820793-the-oath-of-the-vayuputras"
 
 - title: "The Checklist Manifesto: How to Get Things Right"
+  year: "2026"
   id: checklist-manifesto
   notes_coming: true
   author: Atul Gawande
@@ -174,6 +179,7 @@
 
 - title: "Fluent Python"
   id: fluent-python
+  year: "2026"
   notes_coming: true
   author: Luciano Ramalho
   shelf: programming
@@ -184,7 +190,7 @@
   link: "https://www.goodreads.com/book/show/22800567-fluent-python"
 
 - title: The Catcher in the Rye
-  year: 2025
+  year: "2025"
   id: catcher-in-the-rye
   notes_coming: false
   author: "J. D. Salinger"
@@ -197,7 +203,7 @@
 
 - title: Grit
   id: grit
-  year: 2016
+  year: "2016"
   notes_coming: true
   author: Angela Duckworth
   shelf: nonfiction
@@ -208,7 +214,7 @@
   link: "https://www.goodreads.com/book/show/27213329-grit"
 
 - title: A Little Life
-  year: 2026
+  year: "2026"
   id: a-little-life
   notes_coming: false
   author: Hanya Yanagihara
@@ -221,6 +227,7 @@
 
 - title: East of Eden
   id: east-of-eden
+  year: "2026"
   notes_coming: false
   author: John Steinbeck
   shelf: fiction
@@ -232,6 +239,7 @@
 
 - title: The Count of Monte Cristo
   id: count-of-monte-cristo
+  year: "2026"
   notes_coming: false
   author: Alexandre Dumas
   shelf: fiction
@@ -243,6 +251,7 @@
 
 - title: Jane Eyre
   id: jane-eyre
+  year: "2026"
   notes_coming: false
   author: Charlotte Brontë
   shelf: fiction
@@ -254,6 +263,7 @@
 
 - title: A Short History of Nearly Everything
   id: short-history-of-nearly-everything
+  year: "2026"
   notes_coming: false
   author: Bill Bryson
   shelf: nonfiction
@@ -265,6 +275,7 @@
 
 - title: The Myth of Sisyphus
   id: myth-of-sisyphus
+  year: "2026"
   notes_coming: false
   author: Albert Camus
   shelf: nonfiction
@@ -276,6 +287,7 @@
 
 - title: "Voltaire's Bastards: The Dictatorship of Reason in the West"
   id: voltaires-bastards
+  year: "2026"
   notes_coming: false
   author: John Ralston Saul
   shelf: nonfiction
@@ -287,6 +299,7 @@
 
 - title: The Death of Ivan Ilyich
   id: death-of-ivan-ilyich
+  year: "2026"
   notes_coming: false
   author: Leo Tolstoy
   shelf: fiction
@@ -298,6 +311,7 @@
 
 - title: The Brothers Karamazov
   id: brothers-karamazov
+  year: "2026"
   notes_coming: false
   author: Fyodor Dostoevsky
   shelf: fiction
@@ -309,6 +323,7 @@
 
 - title: The Remains of the Day
   id: remains-of-the-day
+  year: "2026"
   notes_coming: false
   author: Kazuo Ishiguro
   shelf: fiction

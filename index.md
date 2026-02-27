@@ -10,7 +10,7 @@ I’m a software engineer focused on building **reliable backend systems** and *
 
 My work sits at the intersection of backend engineering and applied AI- designing APIs, optimizing inference pipelines, and building fault-tolerant systems that run in real production environments.
 
-**Interests:** distributed systems, database concurrency, pragmatic system design.
+**Interests:** distributed systems, database concurrency, pragmatic system design.  
 
 ---
 
@@ -42,7 +42,7 @@ Tracking what I’m reading now and what’s next:
 - [Currently reading]({{ "/books/#currently-reading" | relative_url }})
 - [Up next]({{ "/books/#up-next" | relative_url }})
 
-If there is a book, you think I should read. You can email me.
+If there’s a book you think I should read, email me.
 
 ---
 
