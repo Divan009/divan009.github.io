@@ -36,15 +36,6 @@ My work sits at the intersection of backend engineering and applied AI- designin
 I write about backend engineering, system design, and lessons learned from building real systems- focusing on practical trade-offs rather than theory.
 
 ---
-### 📚 Currently Reading
-
-Tracking what I’m reading now and what’s next:
-- [Currently reading]({{ "/books/#currently-reading" | relative_url }})
-- [Up next]({{ "/books/#up-next" | relative_url }})
-
-If there’s a book you think I should read, email me.
-
----
 
 ## 🧰 Tools I Use Frequently
 
@@ -54,6 +45,17 @@ If there’s a book you think I should read, email me.
 **Infra:** Docker, NGINX, Gunicorn, GCP  
 **Observability:** OpenTelemetry, Prometheus, Grafana, Sentry  
 **Delivery:** GitLab CI/CD  
+
+---
+### 📚 Currently Reading
+
+Tracking what I’m reading now and what’s next:
+- [Currently reading]({{ "/books/#currently-reading" | relative_url }})
+- [Up next]({{ "/books/#up-next" | relative_url }})
+
+If there’s a book you think I should read, email me.
+
+
 
 <!-- **Model serving:** BentoML / KServe / Ray Serve / TorchServe (learning)-->
 ---
