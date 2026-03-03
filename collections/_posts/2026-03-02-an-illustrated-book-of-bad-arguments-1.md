@@ -123,12 +123,6 @@ The fallacy happens when someone makes a blanket statement about a group, and wh
 
 Instead of reconsidering the claim, they shift the definition to protect it.
 
----
-
-
-
-
-
 
 [^1]: True story bro
 [^2]: From the book itself, as it is a good example
