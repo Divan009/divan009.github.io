@@ -2,7 +2,7 @@
 layout: post
 title: "An Illustrated Book of Bad Arguments with examples- part 2"
 book: an-illustrated-book-of-bad-arguments
-# date: 2026-03-10
+# date: 2026-03-17
 date: 2026-02-27
 summary: "A short reflection on An Illustrated Book of Bad Arguments- definitely a must-read."
 description: "Notes and examples inspired by An Illustrated Book of Bad Arguments, exploring common logical fallacies through everyday situations in Indian society."
