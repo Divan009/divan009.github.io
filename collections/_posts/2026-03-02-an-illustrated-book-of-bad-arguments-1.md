@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Illustrated Book of Bad Arguments with examples- Part 1"
+title: "An Illustrated Book of Bad Arguments with Examples- Part 1"
 book: an-illustrated-book-of-bad-arguments
 date: 2026-03-02
 summary: "A short reflection on An Illustrated Book of Bad Arguments- definitely a must-read."
@@ -24,7 +24,7 @@ Arguments like this are faulty because they try to support or deny a statementâ€
 
 When consequences are good, it plays to one's hopes; and when they are bad, they play to one's fears. 
 
-PS: I guess it plays to the want of not doing any exercise.
+PS: I guess it plays to the desire of not doing any exercise
 
 ### 2. Straw Man
 
@@ -100,10 +100,10 @@ This fallacy occurs when a proposition is claimed to be true because it has not 
 
 - ***Ayurveda and other alternative sciences should be preserved whether you believe in them or not. Current medical science is in no condition to call them pseudosciences.***
 
-The statement implies:
+The statement implies:  
     - Medicine must first prove alternative systems wrong before criticizing them.
 
-This statement implies that because modern medicine has not definitively disproven these systems, they should not be classified as pseudoscientific. The argument treats the absence of disproof as support for legitimacy.
+The argument treats the absence of disproof as support for legitimacy.
 
 The fact is that the "**burden of proof**" always lies with the person making a claim, not with others to disprove it.
 
