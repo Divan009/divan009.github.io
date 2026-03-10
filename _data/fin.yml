@@ -34,6 +34,14 @@
 #   status: "in_progress"
 #   deadline: "2026-04-30"
 
+- title: "First competition & won 2nd place in 11hp (1.2 km track)"
+  kind: "goKart"
+  win: "life"
+  year: "2026"
+  status: "done"
+  finished: "2026-03-08"
+
+
 - title: "OSTEP: Chapter 6 + homework"
   kind: "learning"
   win: "learned"
