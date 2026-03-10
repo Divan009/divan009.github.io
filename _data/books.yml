@@ -332,3 +332,294 @@
   vibe: "Quiet + haunting"
   note: "A meditation on duty, dignity, and the cost of emotional restraint."
   link: "https://www.goodreads.com/book/show/28921.The_Remains_of_the_Day"
+
+- title: Pedagogy of the Oppressed
+  id: pedagogy-of-the-oppressed
+  year: "2026"
+  notes_coming: false
+  author: Paulo Freire
+  shelf: nonfiction
+  tags: [education, politics, philosophy, critical-theory]
+  status: next
+  vibe: "Radical + foundational"
+  note: "A classic on power, education, and liberation."
+  link: "https://www.goodreads.com/book/show/72657.Pedagogy_of_the_Oppressed"
+
+- title: How Europe Underdeveloped Africa
+  id: how-europe-underdeveloped-africa
+  year: "2026"
+  notes_coming: false
+  author: Walter Rodney
+  shelf: nonfiction
+  tags: [history, colonialism, africa, political-economy]
+  status: next
+  vibe: "Sharp + historical"
+  note: "A major work on colonial exploitation and global inequality."
+  link: "https://www.goodreads.com/book/show/40630.How_Europe_Underdeveloped_Africa"
+
+- title: The Jakarta Method
+  id: jakarta-method
+  year: "2026"
+  notes_coming: false
+  author: Vincent Bevins
+  shelf: nonfiction
+  tags: [history, geopolitics, cold-war]
+  status: next
+  vibe: "Investigative + disturbing"
+  note: "Explores U.S.-backed anti-communist purges and their global impact."
+  link: "https://www.goodreads.com/book/show/53054943-the-jakarta-method"
+
+- title: Manufacturing Consent
+  id: manufacturing-consent
+  year: "2026"
+  notes_coming: false
+  author: "Edward S. Herman; Noam Chomsky"
+  shelf: nonfiction
+  tags: [media, politics, propaganda]
+  status: next
+  vibe: "Analytical + provocative"
+  note: "Introduces the propaganda model of media."
+  link: "https://www.goodreads.com/book/show/12617.Manufacturing_Consent"
+
+- title: The Shock Doctrine
+  id: shock-doctrine
+  year: "2026"
+  notes_coming: false
+  author: Naomi Klein
+  shelf: nonfiction
+  tags: [economics, politics, globalization]
+  status: next
+  vibe: "Investigative + sweeping"
+  note: "Argues that crises are exploited to push radical market reforms."
+  link: "https://www.goodreads.com/book/show/1237300.The_Shock_Doctrine"
+
+- title: Good Strategy Bad Strategy
+  id: good-strategy-bad-strategy
+  year: "2026"
+  notes_coming: false
+  author: Richard P. Rumelt
+  shelf: nonfiction
+  tags: [strategy, business, decision-making]
+  status: next
+  vibe: "Clear + practical"
+  note: "Explains why most 'strategies' are actually vague goals."
+  link: "https://www.goodreads.com/book/show/11721966-good-strategy-bad-strategy"
+
+- title: Talking to Strangers
+  id: talking-to-strangers
+  year: "2026"
+  notes_coming: false
+  author: Malcolm Gladwell
+  shelf: nonfiction
+  tags: [psychology, communication, society]
+  status: next
+  vibe: "Narrative + counterintuitive"
+  note: "Why humans systematically misunderstand strangers."
+  link: "https://www.goodreads.com/book/show/43848929-talking-to-strangers"
+
+- title: The Body Keeps the Score
+  id: body-keeps-the-score
+  year: "2026"
+  notes_coming: false
+  author: Bessel van der Kolk
+  shelf: nonfiction
+  tags: [psychology, trauma, neuroscience]
+  status: next
+  vibe: "Clinical + compassionate"
+  note: "Explores how trauma reshapes the brain and body."
+  link: "https://www.goodreads.com/book/show/18693771-the-body-keeps-the-score"
+
+- title: The Radium Girls
+  id: radium-girls
+  year: "2026"
+  notes_coming: false
+  author: Kate Moore
+  shelf: nonfiction
+  tags: [history, labor, medicine]
+  status: next
+  vibe: "Tragic + investigative"
+  note: "A landmark workplace safety story."
+  link: "https://www.goodreads.com/book/show/31409135-the-radium-girls"
+
+- title: Salt: A World History
+  id: salt-world-history
+  year: "2026"
+  notes_coming: false
+  author: Mark Kurlansky
+  shelf: nonfiction
+  tags: [history, food, trade]
+  status: next
+  vibe: "Curious + surprising"
+  note: "How a simple mineral shaped economies and empires."
+  link: "https://www.goodreads.com/book/show/2715.Salt"
+
+- title: Invisible Women
+  id: invisible-women
+  year: "2026"
+  notes_coming: false
+  author: Caroline Criado Pérez
+  shelf: nonfiction
+  tags: [data, gender, society]
+  status: next
+  vibe: "Eye-opening + research-heavy"
+  note: "How data gaps systematically disadvantage women."
+  link: "https://www.goodreads.com/book/show/41104077-invisible-women"
+
+- title: Sapiens
+  id: sapiens
+  year: "2026"
+  notes_coming: false
+  author: Yuval Noah Harari
+  shelf: nonfiction
+  tags: [history, anthropology, civilization]
+  status: next
+  vibe: "Big-picture + provocative"
+  note: "A sweeping story of how Homo sapiens shaped the world."
+  link: "https://www.goodreads.com/book/show/23692271-sapiens"
+
+- title: Chip War
+  id: chip-war
+  year: "2026"
+  notes_coming: false
+  author: Chris Miller
+  shelf: nonfiction
+  tags: [technology, geopolitics, semiconductors]
+  status: next
+  vibe: "Strategic + contemporary"
+  note: "Explains the global semiconductor power struggle."
+  link: "https://www.goodreads.com/book/show/60321447-chip-war"
+
+- title: The Princess Bride
+  id: princess-bride
+  year: "2026"
+  notes_coming: false
+  author: William Goldman
+  shelf: fiction
+  tags: [fantasy, adventure, humor]
+  status: next
+  vibe: "Playful + adventurous"
+  note: "A cult classic adventure with humor and romance."
+  link: "https://www.goodreads.com/book/show/21787.The_Princess_Bride"
+
+- title: The People in the Trees
+  id: people-in-the-trees
+  year: "2026"
+  notes_coming: false
+  author: Hanya Yanagihara
+  shelf: fiction
+  tags: [literary-fiction, morality, science]
+  status: next
+  vibe: "Disturbing + philosophical"
+  note: "A fictional memoir about discovery, ethics, and corruption."
+  link: "https://www.goodreads.com/book/show/16171272-the-people-in-the-trees"
+
+- title: The Lessons of History
+  id: lessons-of-history
+  year: "2026"
+  notes_coming: false
+  author: "Will Durant; Ariel Durant"
+  shelf: nonfiction
+  tags: [history, philosophy, civilization]
+  status: next
+  vibe: "Short + distilled"
+  note: "A compressed summary of patterns across civilizations."
+  link: "https://www.goodreads.com/book/show/174713.The_Lessons_of_History"
+
+- title: Seeing Like a State
+  id: seeing-like-a-state
+  year: "2026"
+  notes_coming: false
+  author: James C. Scott
+  shelf: nonfiction
+  tags: [politics, systems, governance, planning]
+  status: next
+  vibe: "Insightful + contrarian"
+  note: "Why large-scale centralized planning repeatedly fails."
+  link: "https://www.goodreads.com/book/show/20186.Seeing_Like_a_State"
+
+- title: The Power Broker
+  id: power-broker
+  year: "2026"
+  notes_coming: false
+  author: Robert A. Caro
+  shelf: nonfiction
+  tags: [power, politics, biography, infrastructure]
+  status: next
+  vibe: "Epic + investigative"
+  note: "A legendary biography explaining how power actually works."
+  link: "https://www.goodreads.com/book/show/1111.The_Power_Broker"
+
+- title: Amusing Ourselves to Death
+  id: amusing-ourselves-to-death
+  year: "2026"
+  notes_coming: false
+  author: Neil Postman
+  shelf: nonfiction
+  tags: [media, culture, politics]
+  status: next
+  vibe: "Sharp + prophetic"
+  note: "How entertainment culture reshapes public discourse."
+  link: "https://www.goodreads.com/book/show/74034.Amusing_Ourselves_to_Death"
+
+- title: Gödel, Escher, Bach
+  id: godel-escher-bach
+  year: "2026"
+  notes_coming: false
+  author: Douglas Hofstadter
+  shelf: nonfiction
+  tags: [logic, cognition, mathematics, philosophy]
+  status: next
+  vibe: "Mind-bending + playful"
+  note: "Explores consciousness, recursion, and intelligence."
+  link: "https://www.goodreads.com/book/show/24113.G_del_Escher_Bach"
+
+- title: "Duet of One: The Ashtavakra Gita Dialogue"
+  id: duet-of-one-ashtavakra-gita
+  year: "2026"
+  notes_coming: false
+  author: Ramesh S. Balsekar
+  shelf: nonfiction
+  tags: [philosophy, spirituality, advaita, vedanta]
+  status: finished
+  vibe: "Radical + nondual"
+  note: "A modern commentary on the Ashtavakra Gita exploring nonduality and the illusion of individual doership."
+  link: "https://www.goodreads.com/book/show/670967.Duet_of_One"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
