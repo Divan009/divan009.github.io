@@ -7,42 +7,55 @@ pre code {
 pre,
 code {
   font-family: $monospace-font-family;
+  font-weight: 500;
+}
+
+/* Inline code only */
+:not(pre)>code {
   font-size: 0.95em;
+  background: #eef2f7;
+  color: #334155;
+  padding: 0.1em 0.35em;
+  border-radius: 6px;
 }
 
-code {
-  color: #666666;
-}
-
+/* Code blocks */
 pre {
   padding: 1.125em;
-  line-height: 1.11;
-  overflow-x: scroll;
+  line-height: 1.5;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
+  border: 1px solid #e2e8f0;
+  border-radius: $pre-border-radius;
+  overflow-x: auto;
+  white-space: pre;
+  word-break: inherit;
+  word-wrap: inherit;
+  counter-reset: line-numbering;
+}
+
+/* Code inside blocks */
+pre code {
+  font-size: 0.95rem;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .highlight .p {
-  font-size: 1.125rem;
-  line-height: 1;
-}
-
-pre {
-    counter-reset: line-numbering;
-    white-space: pre;
-    overflow-x: auto;
-    word-break: inherit;
-    word-wrap: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 pre a {
-    background-image: none;
+  background-image: none;
 }
 
 pre a::before {
   content: counter(line-numbering);
   counter-increment: line-numbering;
-  padding-right: 1em; /* space after numbers */
+  padding-right: 1em;
   width: 25px;
   text-align: right;
   opacity: 0.7;
