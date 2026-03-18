@@ -27,12 +27,12 @@
   status: "done"
   finished: "2026-02-27"
 
-# - title: "Distributed job execution system (leases, retries, idempotency)"
-#   kind: "project"
-#   win: "shipped"
-#   year: "2026"
-#   status: "in_progress"
-#   deadline: "2026-04-30"
+- title: "Published: an article on productivity tricks that i use on Medium"
+  kind: "writing"
+  win: "shipped"
+  year: "2026"
+  status: "done"
+  deadline: "2026-03-21"
 
 - title: "First competition & won 2nd place in 11hp (1.2 km track)"
   kind: "goKart"
