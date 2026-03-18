@@ -32,7 +32,9 @@
   win: "shipped"
   year: "2026"
   status: "done"
-  deadline: "2026-03-21"
+  deadline: "2026-03-25"
+  note: "release on medium, will publish here on 25-03-26"
+
 
 - title: "First competition & won 2nd place in 11hp (1.2 km track)"
   kind: "goKart"
@@ -72,16 +74,14 @@
 #   status: "in_progress"
 #   deadline: "2026-03-20"
 
-- title: "Write article: Illustrations of Bad Arguments 1"
+- title: "Published: Illustrations of Bad Arguments 1"
   kind: "writing"
   win: "shipped"
   year: "2026"
   status: "done"
   finished: "2026-02-26"
-  note: "release on 2nd march"
 
-
-- title: "Write article: Illustrations of Bad Arguments 2"
+- title: "Published: Illustrations of Bad Arguments 2"
   kind: "writing"
   win: "shipped"
   year: "2026"
