@@ -6,11 +6,11 @@ description: "This person is a software engineer who specialises in building rel
 
 # 👋 Hey, I'm Diva Dugar
 
-I’m a software engineer focused on building **reliable backend systems** and **infrastructure for AI workloads**.
+I’m a software engineer focused on building **reliable, low-latency systems for AI workloads**.
 
-My work sits at the intersection of backend engineering and applied AI- designing APIs, optimizing inference pipelines, and building fault-tolerant systems that run in real production environments.
+My work sits at the intersection of **backend engineering and applied AI**- designing APIs, optimizing inference pipelines, and building fault-tolerant, production-grade systems that handle real-world scale.
 
-**Interests:** distributed systems, database concurrency, pragmatic system design.  
+**Interests:** distributed systems, AI workloads (LLMs, RAG, agentic systems), and pragmatic system design
 
 ---
 
@@ -20,14 +20,6 @@ My work sits at the intersection of backend engineering and applied AI- designin
 - Deepening system fundamentals through hands-on projects (OS + networking + databases)
 - Writing about backend reliability and trade-offs- and everything in between
 - Learning **Golang** for systems programming
-
----
-
-## 🏗 Selected Work
-
-- Designed and optimized AI microservices handling batched model inference workflows
-- Reduced production inference latency significantly through profiling and backend optimization
-- Built systems integrating **LLMs / RAG / traditional ML pipelines** with production-grade observability
 
 ---
 
